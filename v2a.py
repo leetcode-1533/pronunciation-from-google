@@ -1,3 +1,6 @@
+import socks
+import socket
+
 import urllib2
 import os
 
@@ -17,4 +20,7 @@ class audio:
         open(os.path.join(self.loc,self.title)+'.mp3','wb').write(mp3.read())
 
 if __name__ == "__main__":
+    socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, "127.0.0.1", 1080)
+    socket.socket = socks.socksocket
+
     audio("audio")
