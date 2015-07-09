@@ -16,6 +16,7 @@ class audio:
         
         
     def mp3_download(self):
+        print self.mp3_path
         mp3 = urllib2.urlopen(self.mp3_path)
         open(os.path.join(self.loc,self.title)+'.mp3','wb').write(mp3.read())
 
