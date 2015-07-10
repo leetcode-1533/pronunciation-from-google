@@ -1,3 +1,5 @@
+#!/Users/y1275963/anaconda/bin/python
+
 import socks
 import socket
 
@@ -22,11 +24,17 @@ class audio:
             open(os.path.join(self.loc,self.title)+'.mp3','wb').write(mp3.read())
             print "Downloaded", self.title
         except:
-            print "Wrong Word", self.title   
+            print "Wrong Word:", self.title   
 
 if __name__ == "__main__":
     socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, "127.0.0.1", 1080)
     socket.socket = socks.socksocket
     
-    au = raw_input('vacubolary ')
-    audio(str(au))
+    with open('/Users/y1275963/Desktop/v2a/list') as f:
+        for line in f:
+            aud = str(line)
+            audio(aud.strip())
+    
+    
+#    au = raw_input('vacubolary ')
+#    audio(str(au))
