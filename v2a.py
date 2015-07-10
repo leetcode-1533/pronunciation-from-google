@@ -26,13 +26,15 @@ class audio:
         self.mp3_download()
         
         
-    def mp3_download(self):
-   #     try:
-        mp3 = urllib2.urlopen(self.mp3_path)
-        open(os.path.join(self.loc,self.title)+'.mp3','wb').write(mp3.read())
-        print "Downloaded", self.title
-    #    except:
-     #       print "Wrong Word:", self.title   
+    def mp3_download(self):    
+        try:
+            mp3 = urllib2.urlopen(self.mp3_path)
+            open(os.path.join(self.loc,self.title)+'.mp3','wb').write(mp3.read())
+            print "Downloaded", self.title
+        except:
+            print "Wrong Word:", self.title   
+            print self.mp3_path
+
 
 if __name__ == "__main__":
     socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, "127.0.0.1", 1080)
