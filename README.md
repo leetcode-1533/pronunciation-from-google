@@ -9,14 +9,15 @@ This script will download English Vocabulary Prounciation from "https://ssl.gsta
 Where file is the list of the words you want the program to download, one at each line. 
 
 ##Needed Modification:
-1. Due to GFW, I used sockets proxy, pleaes remove:
-    import socks
-    import socket
-and 
-    socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, "127.0.0.1", 1080)
-    socket.socket = socks.socksocket
 
-2. exerpath is the variable of the absolute path of the script, after execution, a subfolder called "audio" will be created under this path.
+  1. Due to GFW, I used sockets proxy, pleaes remove:
+      import socks
+      import socket
+    and 
+      socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, "127.0.0.1", 1080)
+      socket.socket = socks.socksocket
+
+  2. exerpath is the variable of the absolute path of the script, after execution, a subfolder called "audio" will be created under this path.
 
 ##Sample output:
     [~/Desktop/v2a y1275963$]python v2a.py a1
