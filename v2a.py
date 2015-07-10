@@ -42,7 +42,7 @@ if __name__ == "__main__":
     
     lock = thread.allocate_lock()
     
-    with open(os.path.join('/Users/y1275963/Desktop/v2a',foldername)) as f:
+    with open(os.path.join(exerpath,foldername)) as f:
         for line in f:
             lock.acquire()
             aud = str(line)
