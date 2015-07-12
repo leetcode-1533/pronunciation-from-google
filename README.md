@@ -6,7 +6,11 @@ This script will download English Vocabulary Prounciation from "https://ssl.gsta
 
   python v2a.py file
   
-Where file is the list of the words you want the program to download, one at each line. 
+Where file is the vocabulary file name containing list of the words you want the program to download, one at each line. 
+
+A folder called "audio" will be created at the the same directory as the script. 
+
+And a subfolder will be created under folder "audio" using the name of the vocabulary file name.
 
 ##Needed Modification:
 
@@ -17,7 +21,6 @@ Where file is the list of the words you want the program to download, one at eac
       socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, "127.0.0.1", 1080)
       socket.socket = socks.socksocket
 
-  2. exerpath is the variable of the absolute path of the script, after execution, a subfolder called "audio" will be created under this path.
 
 ##Sample output:
     [~/Desktop/v2a y1275963$]python v2a.py a1
@@ -37,4 +40,4 @@ Where file is the list of the words you want the program to download, one at eac
     Downloaded abstruse
     Downloaded absurd
     
-  Personally, this script this for the conquering of GRE. I used it to facilitate creating course for memrise.com. Where you have to provide audio for each words.
+  Personally, this script is for the conquering of GRE. I used it to facilitate creating course for memrise.com, where to create a course an audio for each word must be provided.

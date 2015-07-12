@@ -8,7 +8,7 @@ import urllib2
 import os
 import thread
 
-exerpath = '/Users/y1275963/Desktop/v2a'
+exerpath = os.getcwd()
 foldername = sys.argv[1]
 
 class audio:
