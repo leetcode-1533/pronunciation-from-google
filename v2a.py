@@ -68,7 +68,7 @@ def download_def(openfile):
                 print line.rstrip('\n') +' : '+ word_def
                 out_f.write(line.rstrip('\n')+': '+word_def+'\n')
             except TypeError:
-                print "Wrong word(Longman)" + line.rstrip('\n')
+                print "*****Wrong word(Longman)" + line.rstrip('\n')
                 pass
 
     
