@@ -63,10 +63,14 @@ def download_def(openfile):
         
     with open(outfile,'w') as out_f:
         for line in openfile:
-            word_def = check.checkwords(str(line))
-            print line.rstrip('\n') +': '+ word_def
-            
-            out_f.write(line.rstrip('\n')+': '+word_def+'\n')
+            try:
+                word_def = check.checkwords(str(line))
+                print line.rstrip('\n') +' : '+ word_def
+                out_f.write(line.rstrip('\n')+': '+word_def+'\n')
+            except TypeError:
+                print "Wrong word(Longman)" + line.rstrip('\n')
+                pass
+
     
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
