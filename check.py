@@ -10,7 +10,7 @@ import requests
 
 def checkwords(words):
     
-    dic = requests.get('https://api.pearson.com:443/v2/dictionaries/ldoce5/entries?headword='+words)
+    dic = requests.get('https://api.pearson.com:443/v2/dictionaries/laad3/entries?headword='+words)
     #dic.raise_for_status()
     # Longman dictionary will return status 200 no matter found or not 
     ying = dic.json()

@@ -8,8 +8,12 @@ import urllib2
 import os
 import thread
 
-exerpath = os.getcwd()
-foldername = sys.argv[1]
+import check
+
+import argparse
+
+
+exerpath = os.getcwd()        
 
 class audio:
     def __init__(self,foldername,word):
@@ -39,21 +43,58 @@ class audio:
                 print "*****Wrong Word:", self.title   
                 print self.mp3_path
 
-
-if __name__ == "__main__":
+def download_aud(openfile):
     socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, "127.0.0.1", 1080)
     socket.socket = socks.socksocket
     
     lock = thread.allocate_lock()
+    for line in openfile:
+        aud = str(line)
+        lock.acquire()
+        audio(openfile.name,aud.strip())
+        lock.release()
+        
+def download_def(openfile):
+    outfilepath = os.path.join(exerpath,"def")
+    outfile = os.path.join(outfilepath,openfile.name+'.def')
     
-    with open(os.path.join(exerpath,foldername)) as f:
-        for line in f:
-            lock.acquire()
-            aud = str(line)
-            audio(foldername,aud.strip())
-            lock.release()
+    if not os.path.exists(outfilepath):
+        os.makedirs(outfilepath) 
+        
+    with open(outfile,'w') as out_f:
+        for line in openfile:
+            word_def = check.checkwords(str(line))
+            print line.rstrip('\n') +': '+ word_def
+            
+            out_f.write(line.rstrip('\n')+': '+word_def+'\n')
+    
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('filename',type=file)
+    parser.add_argument('-p','--pronunciation',help='Download audio',action='store_true')
+    parser.add_argument('-d','--definition',help='Download definition and store it',action='store_true')
+    args = parser.parse_args()
+    
+    if args.pronunciation:
+        download_aud(args.filename)
+    if args.definition:
+        download_def(args.filename)
+        
+    
+        
 
     
     
-#    au = raw_input('vacubolary ')
-#    audio(str(au))
+#    socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, "127.0.0.1", 1080)
+#    socket.socket = socks.socksocket
+#    lock = thread.allocate_lock()
+#        
+#    exerpath = os.getcwd()
+#    foldername = 'a_list'
+##    foldername = sys.argv[1]
+#    filepath = os.path.join(exerpath,foldername)
+#    outfilepath = os.path.join(exerpath,foldername+'.def')
+#    with open(outfilepath,'w') as out_f:
+#        with open(filepath,'r') as in_f:
+#            for line in in_f:
+#                out_f.write(line.rstrip('\n')+': '+check.checkwords(str(line))[0]+'\n')
