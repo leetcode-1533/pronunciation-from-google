@@ -2,7 +2,10 @@
 .DS_Store
 
 .*.un~
+*.swp
 
 *.pyc
 
 def/*
+
+test
