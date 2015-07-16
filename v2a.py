@@ -40,6 +40,8 @@ class audio:
                 open(filename,'wb').write(mp3.read())
                 print "Downloaded", self.title
             except:
+                print sys.exc_info()
+
                 print "*****Wrong Word:", self.title   
                 print self.mp3_path
 
