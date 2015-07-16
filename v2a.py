@@ -55,6 +55,8 @@ def download_aud(openfile):
         lock.release()
         
 def download_def(openfile):
+    checked = []
+
     outfilepath = os.path.join(exerpath,"def")
     outfile = os.path.join(outfilepath,openfile.name+'.def')
     
@@ -64,12 +66,16 @@ def download_def(openfile):
     with open(outfile,'w') as out_f:
         for line in openfile:
             try:
-                word_def = check.checkwords(str(line))
-                print line.rstrip('\n') +' : '+ word_def
-                out_f.write(line.rstrip('\n')+': '+word_def+'\n')
+                word_def = check.checkwords(line.rstrip('\n'))
+                definition = '*'+line.rstrip('\n')+': '+word_def
+                print definition + '\n'
+                out_f.write(definition + '\n\n')
+
+                checked.append([line.rstrip('\n'),word_def])
             except TypeError:
-                print "*****Wrong word(Longman)" + line.rstrip('\n')
+                print "*****Wrong word(Longman): " + line.rstrip('\n')
                 pass
+    return checked
 
     
 if __name__ == "__main__":
