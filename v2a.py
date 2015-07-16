@@ -69,7 +69,7 @@ def download_def(openfile):
                 word_def = check.checkwords(line.rstrip('\n'))
                 definition = '*'+line.rstrip('\n')+': '+word_def
                 print definition + '\n'
-                out_f.write(definition + '\n\n')
+                out_f.write(definition.encode("utf8") + '\n\n')
 
                 checked.append([line.rstrip('\n'),word_def])
             except TypeError:
