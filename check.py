@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#!/Users/y1275963/anaconda/bin/python
 """
 Created on Thu Jul 16 11:27:26 2015
 
@@ -7,6 +7,7 @@ Created on Thu Jul 16 11:27:26 2015
 An utility for checking the most common words from Longman API
 """
 import requests
+import sys
 
 def checkwords(words):
     
@@ -23,3 +24,7 @@ def checkwords(words):
     definition = ying3['definition']
     
     return definition
+
+if __name__ == "__main__":
+    print sys.argv[1],': ',checkwords(sys.argv[1])
+
