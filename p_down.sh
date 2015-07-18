@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-echo name of the script is $0
+./getlist.py $1 >> $1
+./v2a.py -p $1
