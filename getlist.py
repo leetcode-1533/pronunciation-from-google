@@ -26,7 +26,7 @@ if __name__ == "__main__":
     
     for item in lists:
         subitem = item.find('div',{'class':'text'})
-        print subitem.text
+        print str(subitem.text).lower()
 
     
 
