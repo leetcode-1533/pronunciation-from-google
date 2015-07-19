@@ -11,7 +11,14 @@ import sys
 import urllib
 from bs4 import BeautifulSoup
 
+from tabulate import tabulate
 
+def returnitem(cala):
+    for item in cala:
+        subitem = item.find('div',{'class':'text'})
+        yield str(subitem.text).decode('utf-8')
+
+    
 if __name__ == "__main__":
     
     url = 'http://www.memrise.com/course/735854/gre_3000/'+sys.argv[1]+'/'
@@ -22,15 +29,20 @@ if __name__ == "__main__":
     html = urllib.urlopen(url).read()
     soup = BeautifulSoup(html)
     
-    lists = soup.findAll('div',{'class':'col_a col text'})
-    lists_men = soup.findAll('div',{'class':'col_b col text'})
+    lists_men = soup.findAll('div',{'class':'col_a col text'})
+    lists = soup.findAll('div',{'class':'col_b col text'})
     
-    for item in lists:
-        subitem = item.find('div',{'class':'text'})
-        print str(subitem.text).lower()
-    for item in lists_men:
-        subitem2 = item.find('div',{'class':'text'})
-        print subitem2.text
+    gen_list = []
+    
+    for item,meaning in zip(returnitem(lists),returnitem(lists_men)):
+        gen_list.append([meaning,item])
+    
+    re = tabulate(gen_list,tablefmt="latex")
+    
+    text_file = open("meaning_"+sys.argv[1],"w")
+    text_file.write(re)
+    text_file.close()
+    
 
     
 
