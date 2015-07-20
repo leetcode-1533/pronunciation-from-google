@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup
 
 if __name__ == "__main__":
     
-    url = 'http://www.memrise.com/course/735854/gre_3000/'+sys.argv[1]+'/'
+    url = 'http://www.memrise.com/course/735854/gre-3000-10/'+sys.argv[1]+'/'
 
     reload(sys)  
     sys.setdefaultencoding('utf8')
