@@ -11,6 +11,7 @@ Get Barron 800's list and meaning
 import getlist
 import pickle 
 import random
+import sys
 
 def geterate_pickel():
     baseurl = 'http://www.memrise.com/course/121215/barrons-800-essential-word-list-gre/'
@@ -39,14 +40,25 @@ def read():
 if __name__ == "__main__":
     dic = pickle.load(open('b800.pickle','rb'))
     passed,nonepassed = read()
+    print "passed:",len(passed)
+    print "Nonepassed", nonepassed
+    # Set the question periphery 
+    dicpool = {}
+    for i in range(int(sys.argv[1]),int(sys.argv[2])):
+        dicpool.update(dic[i])
+    # Random generate 20 items from the lists
+    questions = []
+    keypool = dicpool.keys()
+    random.shuffle(keypool)
+    for item in keypool:
+        if item not in passed:
+            questions.append(item)
+    if len(questions) > 20:
+        questions = questions[1:21]
+    print questions
+    print '\n'
     
-    all_dic = {}
-    for i in range(1,4):
-        all_dic.update(dic[i])
-    
-    dicpool = all_dic
-    
-    for qitem in dicpool:
+    for qitem in questions:
         
         if qitem in passed:
             pass
@@ -66,7 +78,7 @@ if __name__ == "__main__":
                 
             # prompt input:
             sel = raw_input('You choices:\n')
-            if str(sel) == 'n':
+            if str(sel) == 'q':
                 break
             else: 
                 if choices[int(sel)-1] == dicpool[qitem]:
