@@ -12,6 +12,8 @@ import check
 
 import argparse
 
+import csv
+
 
 exerpath = os.getcwd()        
 
@@ -58,25 +60,29 @@ def download_aud(openfile):
         
 def download_def(openfile):
     checked = []
-
+    
+    for line in openfile:
+        try:
+            word_def = check.checkwords(line.rstrip('\n'))
+            definition = '*'+line.rstrip('\n')+': '+word_def
+            print definition + '\n'
+            
+            checked.append([line.rstrip('\n'),word_def.encode('UTF-8')])
+        except TypeError:
+            print "*****Wrong word(Longman): " + line.rstrip('\n')
+            pass   
+    openfile.close()
+    
     outfilepath = os.path.join(exerpath,"def")
     outfile = os.path.join(outfilepath,openfile.name+'.def')
     
     if not os.path.exists(outfilepath):
         os.makedirs(outfilepath) 
         
-    with open(outfile,'w') as out_f:
-        for line in openfile:
-            try:
-                word_def = check.checkwords(line.rstrip('\n'))
-                definition = '*'+line.rstrip('\n')+': '+word_def
-                print definition + '\n'
-                out_f.write(definition.encode("utf8") + '\n\n')
-
-                checked.append([line.rstrip('\n'),word_def])
-            except TypeError:
-                print "*****Wrong word(Longman): " + line.rstrip('\n')
-                pass
+    with open(outfile,'wb') as csvfile:
+        swriter = csv.writer(csvfile,delimiter=',')
+        swriter.writerows(checked)
+        
     return checked
 
     
