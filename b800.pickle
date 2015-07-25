@@ -1,0 +1,3358 @@
+(dp0
+I1
+(dp1
+S'abstemious'
+p2
+S'moderate in appetite'
+p3
+sS'abeyance'
+p4
+S'temporary suppression or suspension'
+p5
+sS'abscond'
+p6
+S'to depart secretly'
+p7
+sS'abstinence'
+p8
+S'the giving up of certain pleasures'
+p9
+sS'abscission'
+p10
+S'the act of cutting; the natural separation of a leaf or other part of a plant'
+p11
+sS'abjure'
+p12
+S'to reject; abandon formally'
+p13
+sS'abate'
+p14
+S'to decrease; reduce'
+p15
+sS'abject'
+p16
+S'miserable; pitiful'
+p17
+sS'aberrant'
+p18
+S'deviating from what is normal'
+p19
+sS'abdicate'
+p20
+S'to give up a position, right, or power'
+p21
+ssI2
+(dp22
+S'affected'
+p23
+S'pretentious; phony'
+p24
+sS'abysmal'
+p25
+S'very bad'
+p26
+sS'accrue'
+p27
+S'to accumulate; grow by additions'
+p28
+sS'adjunct'
+p29
+S'something added, attached, or joined'
+p30
+sS'admonish'
+p31
+S'to caution or reprimand'
+p32
+sS'accretion'
+p33
+S'growth in size or increase in amount'
+p34
+sS'affinity'
+p35
+S'fondness; liking; similarity'
+p36
+sS'aesthetic'
+p37
+S'relating to beauty or the arts'
+p38
+sS'adamant'
+p39
+S'uncompromising; unyielding'
+p40
+sS'adulterate'
+p41
+S'to corrupt or make impure'
+p42
+ssI3
+(dp43
+S'ambiguous'
+p44
+S'unclear or doubtful in meaning'
+p45
+sS'aggregate'
+p46
+S'amounting to a whole; total'
+p47
+sS'amalgamate'
+p48
+S'to combine into a unified whole'
+p49
+sS'alacrity'
+p50
+S'cheerful willingness; eagerness; speed'
+p51
+sS'alchemy'
+p52
+S'medieval chemical philosophy based on changing metal into gold; a seemingly magical power or process of transmutation'
+p53
+sS'allure'
+p54
+S'the power to entice by charm'
+p55
+sS'alleviate'
+p56
+S'to relieve; improve partially'
+p57
+sS'alloy'
+p58
+S'a combination; a mixture of two or more metals'
+p59
+sS'allay'
+p60
+S'to lessen; ease; soothe'
+p61
+sS'aggrandize'
+p62
+S'to make larger or greater'
+p63
+ssI4
+(dp64
+S'amenity'
+p65
+S'something that increases comfort'
+p66
+sS'ambivalence'
+p67
+S'the state of having conflicting emotional attitudes'
+p68
+sS'anachronism'
+p69
+S'something out of the proper time'
+p70
+sS'amenable'
+p71
+S'agreeable; cooperative; suited'
+p72
+sS'amulet'
+p73
+S'ornament worn as a charm against evil spirits'
+p74
+sS'ambrosia'
+p75
+S'something delicious; the food of the gods'
+p76
+sS'analgesic'
+p77
+S'medication that reduces or eliminates pain'
+p78
+sS'ameliorate'
+p79
+S'to improve'
+p80
+sS'analogous'
+p81
+S'comparable'
+p82
+sS'anarchy'
+p83
+S'absence of government; state of disorder'
+p84
+ssI5
+(dp85
+S'antecedent'
+p86
+S'something that comes before'
+p87
+sS'antediluvian'
+p88
+S'prehistoric'
+p89
+sS'appease'
+p90
+S'to calm, pacify, placate'
+p91
+sS'apothegm'
+p92
+S'a terse, witty saying'
+p93
+sS'apex'
+p94
+S'the highest point'
+p95
+sS'apathy'
+p96
+S'indifference'
+p97
+sS'anomalous'
+p98
+S'irregular; deviating from the norm'
+p99
+sS'antipathy'
+p100
+S'dislike; hostility'
+p101
+sS'anodyne'
+p102
+S'something that calms or soothes pain'
+p103
+sS'apogee'
+p104
+S'the point in an orbit most distant from the body being orbited; the highest point'
+p105
+ssI6
+(dp106
+S'appellation'
+p107
+S'name'
+p108
+sS'apposite'
+p109
+S'strikingly appropriate and relevant'
+p110
+sS'ardor'
+p111
+S'great emotion or passion'
+p112
+sS'arduous'
+p113
+S'extremely difficult; laborious'
+p114
+sS'appropriate'
+p115
+S"to take possession of for one's own use; confiscate"
+p116
+sS'apprise'
+p117
+S'to inform'
+p118
+sS'approbation'
+p119
+S'praise, approval'
+p120
+sS'arabesque'
+p121
+S'ornate design featuring intertwined curves; a ballet position in which one leg is extended in back while the other supports the weight of the body'
+p122
+sS'apropos'
+p123
+S'relevant'
+p124
+sS'archaeology'
+p125
+S'the study of material evidence of past human life'
+p126
+ssI7
+(dp127
+S'arrest'
+p128
+S'to stop; to seize'
+p129
+sS'argot'
+p130
+S'a specialized vocabulary used by a group'
+p131
+sS'assuage'
+p132
+S'to make less severe'
+p133
+sS'astringent'
+p134
+S'harsh; severe'
+p135
+sS'artifact'
+p136
+S'item made by human craft'
+p137
+sS'assiduous'
+p138
+S'diligent; hard-working'
+p139
+sS'ascetic'
+p140
+S'one who practices self-denial'
+p141
+sS'aspersion'
+p142
+S'slander; false rumor'
+p143
+sS'asperity'
+p144
+S'severity; harshness; irritability'
+p145
+sS'artless'
+p146
+S'guileless; natural'
+p147
+ssI8
+(dp148
+S'austere'
+p149
+S'stern; unadorned; simple'
+p150
+sS'attenuate'
+p151
+S'to weaken'
+p152
+sS'audacious'
+p153
+S'bold; daring'
+p154
+sS'avocation'
+p155
+S'secondary occupation'
+p156
+sS'avuncular'
+p157
+S'like an uncle, benevolent and tolerant'
+p158
+sS'atavism'
+p159
+S'in biology, the reappearance of a characteristic in an organism after several generations of absence; individual or a part that exhibits atavism; return of a trait after a period of absence'
+p160
+sS'avarice'
+p161
+S'greed'
+p162
+sS'aver'
+p163
+S'to affirm; declare to be true'
+p164
+sS'autonomous'
+p165
+S'self-governing; independent'
+p166
+sS'asylum'
+p167
+S'place of refuge or shelter'
+p168
+ssI9
+(dp169
+S'bacchanalian'
+p170
+S'pertaining to riotous or drunken festivity; pertaining to revelry'
+p171
+sS'axiomatic'
+p172
+S'taken for granted; self-evident truth'
+p173
+sS'behemoth'
+p174
+S'huge creature; anything very large and powerful'
+p175
+sS'banter'
+p176
+S'playful conversation'
+p177
+sS'belie'
+p178
+S'to contradict; misrepresent; give a false impression'
+p179
+sS'bard'
+p180
+S'poet'
+p181
+sS'bedizen'
+p182
+S'to dress in a vulgar, showy manner'
+p183
+sS'banal'
+p184
+S'commonplace; trite'
+p185
+sS'bawdy'
+p186
+S'obscene'
+p187
+sS'beatify'
+p188
+S'to sanctify; to bless; to ascribe a virtue to'
+p189
+ssI10
+(dp190
+S'bolster'
+p191
+S'to give a boost to; prop up; support'
+p192
+sS'boorish'
+p193
+S'rude; insensitive'
+p194
+sS'bifurcate'
+p195
+S'to divide into two parts'
+p196
+sS'bombastic'
+p197
+S'pompous; using inflated language'
+p198
+sS'blase'
+p199
+S'bored because of frequent indulgence; unconcerned'
+p200
+sS'beneficent'
+p201
+S'kindly; doing good'
+p202
+sS'brazen'
+p203
+S'bold; shameless'
+p204
+sS'broach'
+p205
+S'to mention for the first time'
+p206
+sS'blandishment'
+p207
+S'flattery'
+p208
+sS'bovine'
+p209
+S'cowlike'
+p210
+ssI11
+(dp211
+S'cacophonous'
+p212
+S'unpleasant or harsh-sounding'
+p213
+sS'buttress'
+p214
+S'to reinforce; support'
+p215
+sS'bucolic'
+p216
+S'characteristic of the countryside; rustic; pastoral'
+p217
+sS'callous'
+p218
+S'thick-skinned; insensitive'
+p219
+sS'canon'
+p220
+S'an established set of principles; a basis or standard for judgment; a group of literary works'
+p221
+sS'burnish'
+p222
+S'to polish'
+p223
+sS'canard'
+p224
+S'false; deliberately misleading story'
+p225
+sS'burgeon'
+p226
+S'to grow and flourish'
+p227
+sS'cadge'
+p228
+S'to beg; sponge'
+p229
+sS'calumny'
+p230
+S'false and malicious accusation; slander'
+p231
+ssI12
+(dp232
+S'cartography'
+p233
+S'science of making maps'
+p234
+sS'cantankerous'
+p235
+S'irritable; ill-humored'
+p236
+sS'castigation'
+p237
+S'punishment; chastisement; criticism'
+p238
+sS'cardinal'
+p239
+S'of foremost importance'
+p240
+sS'cant'
+p241
+S'insincere talk; language of a particular group'
+p242
+sS'capricious'
+p243
+S'fickle'
+p244
+sS'carping'
+p245
+S'to find fault; complain'
+p246
+sS'carnal'
+p247
+S'of the flesh or body; related to physical appetites'
+p248
+sS'captious'
+p249
+S'faultfinding; intended to entrap, as in an argument'
+p250
+sS'caste'
+p251
+S'any of the hereditary social classes in Hindu society; social stratification'
+p252
+ssI13
+(dp253
+S'celestial'
+p254
+S'concerned with sky or heavens; sublime'
+p255
+sS'champion'
+p256
+S'to defend or support'
+p257
+sS'categorical'
+p258
+S'absolute; without exception'
+p259
+sS'centrifugal'
+p260
+S'moving away from a center'
+p261
+sS'centripetal'
+p262
+S'moving or directed toward a center'
+p263
+sS'cataclysm'
+p264
+S'a violent upheaval that causes great destruction and change'
+p265
+sS'catalyst'
+p266
+S'something that causes change'
+p267
+sS'caustic'
+p268
+S'burning; stinging; causing corrosion'
+p269
+sS'causal'
+p270
+S'involving a cause'
+p271
+sS'caucus'
+p272
+S'smaller group within an organization'
+p273
+ssI14
+(dp274
+S'chicanery'
+p275
+S'trickery; fraud'
+p276
+sS'chivalry'
+p277
+S'the qualities idealized by knighthood such as bravery and gallantry toward women'
+p278
+sS'chasten'
+p279
+S'to correct by punishment or reproof; to restrain or subdue'
+p280
+sS'clique'
+p281
+S'a small, exclusive group'
+p282
+sS'churlish'
+p283
+S'rude; boorish'
+p284
+sS'clairvoyant'
+p285
+S'one who can predict the future; psychic'
+p286
+sS'cloister'
+p287
+S'to confine; seclude'
+p288
+sS'clamor'
+p289
+S'noisy outcry'
+p290
+sS'circuitous'
+p291
+S'roundabout'
+p292
+sS'coagulate'
+p293
+S'thicken; congeal'
+p294
+ssI15
+(dp295
+S'complacent'
+p296
+S'self-satisfied'
+p297
+sS'compendium'
+p298
+S'brief, comprehensive summary'
+p299
+sS'coda'
+p300
+S'concluding part of a literary or musical composition; something that summarizes or concludes'
+p301
+sS'collage'
+p302
+S'artistic composition of materials pasted over a surface; an assemblage of diverse elements'
+p303
+sS'complement'
+p304
+S'something that completes or makes up a whole'
+p305
+sS'complaisant'
+p306
+S'overly polite; willingness to comply with the wishes of others'
+p307
+sS'coalesce'
+p308
+S'to cause to become one'
+p309
+sS'cognizant'
+p310
+S'informed; conscious; aware'
+p311
+sS'commensurate'
+p312
+S'proportional'
+p313
+sS'codify'
+p314
+S'to systematize'
+p315
+ssI16
+(dp316
+S'compunction'
+p317
+S'uneasiness caused by guilt'
+p318
+sS'concomitant'
+p319
+S'existing concurrently'
+p320
+sS'concoct'
+p321
+S'to invent'
+p322
+sS'concave'
+p323
+S'curving inward'
+p324
+sS'conciliatory'
+p325
+S'overcoming distrust or hostility'
+p326
+sS'confound'
+p327
+S'to baffle; perplex; mix up'
+p328
+sS'compliant'
+p329
+S'yielding'
+p330
+sS'conjugal'
+p331
+S'pertaining to marriage agreement'
+p332
+sS'congenial'
+p333
+S'similar in tastes and habits; friendly; suited to'
+p334
+sS'condone'
+p335
+S'to overlook voluntarily; forgive'
+p336
+ssI17
+(dp337
+S'contend'
+p338
+S'to assert'
+p339
+sS'connoisseur'
+p340
+S'expert in matters of taste; expert knowledge or training'
+p341
+sS'contentious'
+p342
+S'quarrelsome; causing quarrels'
+p343
+sS'continence'
+p344
+S'self-control; abstention from sexual activity'
+p345
+sS'conundrum'
+p346
+S'riddle; puzzle with no solution'
+p347
+sS'contiguous'
+p348
+S'touching; neighboring; connecting without a break'
+p349
+sS'conscript'
+p350
+S'a person compulsorily enrolled for military service'
+p351
+sS'contumacious'
+p352
+S'disobedient; rebellious'
+p353
+sS'consecrate'
+p354
+S'to declare sacred'
+p355
+sS'contrite'
+p356
+S'very sorrowful for a wrong; seeking forgiveness'
+p357
+ssI18
+(dp358
+S'cornucopia'
+p359
+S'horn overflowing with fruit and grain; state of abundance'
+p360
+sS'covert'
+p361
+S'hidden; secret'
+p362
+sS'convention'
+p363
+S'practice widely observed in a group; custom; accepted technique or device'
+p364
+sS'copious'
+p365
+S'abundant; plentiful'
+p366
+sS'coquette'
+p367
+S'woman who flirts'
+p368
+sS'cosmology'
+p369
+S'study of the universe as a totality; theory of the origin and structure of the universe'
+p370
+sS'convoluted'
+p371
+S'twisted; complicated'
+p372
+sS'convex'
+p373
+S'curved outward'
+p374
+sS'converge'
+p375
+S'to approach; come together; tend to meet'
+p376
+sS'convivial'
+p377
+S'sociable'
+p378
+ssI19
+(dp379
+S'credo'
+p380
+S'statement of belief or principle; creed'
+p381
+sS'credence'
+p382
+S'acceptance of something as true'
+p383
+sS'dearth'
+p384
+S'scarcity'
+p385
+sS'decorum'
+p386
+S'proper behavior'
+p387
+sS'craven'
+p388
+S'cowardly'
+p389
+sS'debauchery'
+p390
+S'corruption'
+p391
+sS'covetous'
+p392
+S'desiring something owned by another'
+p393
+sS'defame'
+p394
+S"to malign; harm someone's reputation"
+p395
+sS'daunt'
+p396
+S'to discourage; intimidate; dishearten'
+p397
+sS'cozen'
+p398
+S'to mislead by trick or fraud; decieve'
+p399
+ssI20
+(dp400
+S'delineate'
+p401
+S'to represent or depict'
+p402
+sS'defunct'
+p403
+S'no longer existing'
+p404
+sS'default'
+p405
+S'to fail to act'
+p406
+sS'demographic'
+p407
+S'related to population balance'
+p408
+sS'denigrate'
+p409
+S"to slur someone's reputation"
+p410
+sS'denouement'
+p411
+S'outcome; unraveling of the plot of a play or work of literature'
+p412
+sS'demur'
+p413
+S'to express doubt; question or oppose'
+p414
+sS'demotic'
+p415
+S'pertaining to people'
+p416
+sS'denizen'
+p417
+S'an inhabitant; a regular visitor'
+p418
+sS'deference'
+p419
+S"respect; regard for another's wish"
+p420
+ssI21
+(dp421
+S'detraction'
+p422
+S'the act of taking away'
+p423
+sS'desuetude'
+p424
+S'state of disuse'
+p425
+sS'dichotomy'
+p426
+S'division into two usually contradictory parts'
+p427
+sS'desiccate'
+p428
+S'to dry completely'
+p429
+sS'deride'
+p430
+S'to mock'
+p431
+sS'desultory'
+p432
+S'random; disconnected; rambling'
+p433
+sS'diaphanous'
+p434
+S'transparent; vague; insubstancial'
+p435
+sS'derivative'
+p436
+S'something derived; unoriginal'
+p437
+sS'deterrent'
+p438
+S'something that discourages or hinders'
+p439
+sS'diatribe'
+p440
+S'bitter verbal attack'
+p441
+ssI22
+(dp442
+S'diffidence'
+p443
+S'shyness; lack of confidence'
+p444
+sS'digression'
+p445
+S'act of straying from the main point'
+p446
+sS'discomfit'
+p447
+S'to make uneasy; disconcert'
+p448
+sS'discerning'
+p449
+S'perceptive; exhibiting keen insight and good judgement'
+p450
+sS'discredit'
+p451
+S'to dishonor; disgrace'
+p452
+sS'discrepancy'
+p453
+S'difference between'
+p454
+sS'dirge'
+p455
+S'funeral hymn'
+p456
+sS'disabuse'
+p457
+S'free from a misconception'
+p458
+sS'discordant'
+p459
+S'not in tune'
+p460
+sS'diffuse'
+p461
+S'to spread out'
+p462
+ssI23
+(dp463
+S'disinterested'
+p464
+S'unprejudiced; objective'
+p465
+sS'disjointed'
+p466
+S'lacking order or coherence; dislocated'
+p467
+sS'disingenuous'
+p468
+S'not candid, crafty'
+p469
+sS'disparate'
+p470
+S'dissimilar'
+p471
+sS'disseminate'
+p472
+S'to spread; scatter; disperse'
+p473
+sS'dismiss'
+p474
+S'put away from consideration; reject'
+p475
+sS'discrete'
+p476
+S'constituing a separate thing; distinct'
+p477
+sS'discretion'
+p478
+S'quality of showing self-restraint in speech or actions'
+p479
+sS'dissemble'
+p480
+S"to pretend; disguise one's motives"
+p481
+sS'disparage'
+p482
+S'to belittle'
+p483
+ssI24
+(dp484
+S'distend'
+p485
+S'to expand; swell out'
+p486
+sS'dissonance'
+p487
+S'discord; lack of harmony'
+p488
+sS'dissolution'
+p489
+S'disintegration;debauchery'
+p490
+sS'divulge'
+p491
+S'to make known something that is secret'
+p492
+sS'distill'
+p493
+S'extract the essential elements'
+p494
+sS'diverge'
+p495
+S'to vary; go in different directions from the same point'
+p496
+sS'dissident'
+p497
+S'person who disagrees about beliefs'
+p498
+sS'distrait'
+p499
+S'inattentive; preoccupied'
+p500
+sS'divest'
+p501
+S'to strip; deprive; rid'
+p502
+sS'doctrinaire'
+p503
+S'dogmatic; unyielding'
+p504
+ssI25
+(dp505
+S'dormant'
+p506
+S'in a state of rest or inactivity'
+p507
+sS'effervescence'
+p508
+S'state of high spirits or liveliness; process of bubling as gas escapes'
+p509
+sS'effete'
+p510
+S'depleted of vitality; overrefined; decadent'
+p511
+sS'doggerel'
+p512
+S'poor verse'
+p513
+sS'dupe'
+p514
+S'to deceive; trick'
+p515
+sS'dogmatic'
+p516
+S'stating opinions without proof'
+p517
+sS'dross'
+p518
+S'waste; worthless matter'
+p519
+sS'eclectic'
+p520
+S'selecting from various sources'
+p521
+sS'document'
+p522
+S'to provide with written evidence to support'
+p523
+sS'ebullient'
+p524
+S'exhilarated; overly enthusiastic'
+p525
+ssI26
+(dp526
+S'embellish'
+p527
+S'to adorn; enhance'
+p528
+sS'efficacy'
+p529
+S'effectiveness; efficiency'
+p530
+sS'emaciated'
+p531
+S'thin and wasted'
+p532
+sS'elysian'
+p533
+S'delightful; blissful'
+p534
+sS'egoism'
+p535
+S'the tendency to see things in relation to oneself; self-centeredness'
+p536
+sS'elicit'
+p537
+S'to provoke; draw out'
+p538
+sS'elegy'
+p539
+S'poem or song expressing lamentation'
+p540
+sS'elixir'
+p541
+S'a sustance believed to have the power to cure ills'
+p542
+sS'effrontery'
+p543
+S'shameless; boldness; presumptuousness'
+p544
+sS'egotistical'
+p545
+S'excessively self-centered; conceited'
+p546
+ssI27
+(dp547
+S'engender'
+p548
+S'to cause; produce'
+p549
+sS'emulate'
+p550
+S'to imitate; copy'
+p551
+sS'entomology'
+p552
+S'the scientific study of insects'
+p553
+sS'empirical'
+p554
+S'derived from observation or experiment'
+p555
+sS'enunciate'
+p556
+S'to pronounce clearly'
+p557
+sS'emollient'
+p558
+S'soothing; mollifying'
+p559
+sS'enhance'
+p560
+S'to increase; improve'
+p561
+sS'enervate'
+p562
+S'to weaken'
+p563
+sS'encomium'
+p564
+S'a formal expression of praise'
+p565
+sS'endemic'
+p566
+S'inherent; belonging to an area'
+p567
+ssI28
+(dp568
+S'essay'
+p569
+S'to make an attempt; subject to a test'
+p570
+sS'epistemology'
+p571
+S'branch of philosophy tha examines the nature of knowledge'
+p572
+sS'equanimity'
+p573
+S'composure; calmness'
+p574
+sS'esoteric'
+p575
+S'hard to understand; known only to a few'
+p576
+sS'erudite'
+p577
+S'learned; scholarly'
+p578
+sS'equivocate'
+p579
+S'intentionally use vague language'
+p580
+sS'estimable'
+p581
+S'admirable; possible to estimate'
+p582
+sS'ephemeral'
+p583
+S'short-lived; fleeting'
+p584
+sS'equable'
+p585
+S'steady; unvarying; serene'
+p586
+sS'errant'
+p587
+S'mistaken; straying from the proper course'
+p588
+ssI29
+(dp589
+S'euphemism'
+p590
+S'use of agreeable or inoffensive language in place of offensive language'
+p591
+sS'evocative'
+p592
+S'tending to call to mind or produce a reaction'
+p593
+sS'ethnocentric'
+p594
+S"based on the attitude tha one's group is superior"
+p595
+sS'eulogy'
+p596
+S'a tribute to someone who has just died'
+p597
+sS'evince'
+p598
+S'to show plainly; be an indication of'
+p599
+sS'eugenics'
+p600
+S'study of factors that influence the hereditary qualities of the human race and ways to improve those qualities'
+p601
+sS'etiology'
+p602
+S'causes or origins'
+p603
+sS'etymology'
+p604
+S'origin and history of a word'
+p605
+sS'euthanasia'
+p606
+S'mercy killing'
+p607
+sS'euphoria'
+p608
+S'feeling of extreme happiness'
+p609
+ssI30
+(dp610
+S'exculpate'
+p611
+S'to clear of blame; vindicate'
+p612
+sS'execrable'
+p613
+S'extremely bad or unpleasant'
+p614
+sS'exigency'
+p615
+S'crisis; urgent requirements'
+p616
+sS'expatiate'
+p617
+S'to speak or write at length'
+p618
+sS'exhort'
+p619
+S'to urge by strong appeals'
+p620
+sS'exacerbate'
+p621
+S'to aggravate; make worse'
+p622
+sS'existential'
+p623
+S'having to do with existence'
+p624
+sS'exorcise'
+p625
+S'to expel evil spirits; free from bad influences'
+p626
+sS'expatriate'
+p627
+S'to send into exile'
+p628
+sS'exact'
+p629
+S'to force the payment of; demand and obtain by authority'
+p630
+ssI31
+(dp631
+S'extemporaneous'
+p632
+S'unrehearsed'
+p633
+sS'extrinsic'
+p634
+S'not inherent or essential'
+p635
+sS'facetious'
+p636
+S'treating serious issues with deliberately inappropriate humour; flippant'
+p637
+sS'extraneous'
+p638
+S'not essencial'
+p639
+sS'expository'
+p640
+S'explanatory'
+p641
+sS'extrapolation'
+p642
+S'the act of estimation by projecting known information'
+p643
+sS'expiate'
+p644
+S'to atone for'
+p645
+sS'explicate'
+p646
+S'to explain;interpret;clarify'
+p647
+sS'extant'
+p648
+S'in existence; not lost'
+p649
+sS'extirpate'
+p650
+S'to root up; to destroy'
+p651
+ssI32
+(dp652
+S'fawning'
+p653
+S'give a servile display of exaggerated flattery or affection, typically in order to gain favor'
+p654
+sS'feral'
+p655
+S'existing in a wild or untamed state'
+p656
+sS'fallacious'
+p657
+S'based on a false idea or fact; misleading'
+p658
+sS'fatuous'
+p659
+S'foolishly self-satisfied'
+p660
+sS'felicitous'
+p661
+S'well chosen or suited to the circumstances'
+p662
+sS'fallow'
+p663
+S'plowed but not sowed; uncultivated'
+p664
+sS'factotum'
+p665
+S'a person who does all sorts of work; a handyman'
+p666
+sS'fervor'
+p667
+S'warmth and intensity of emotion'
+p668
+sS'fauna'
+p669
+S'animals of a period o region'
+p670
+sS'facilitate'
+p671
+S'to make less difficult'
+p672
+ssI33
+(dp673
+S'fiat'
+p674
+S'an arbitrary order, a formal authorization or proposition'
+p675
+sS'flora'
+p676
+S'plants of a region or era'
+p677
+sS'finesse'
+p678
+S'to handle with a deceptive or evasive strategy; refined in performance'
+p679
+sS'fissure'
+p680
+S'crevice'
+p681
+sS'fetter'
+p682
+S'to bind; confine'
+p683
+sS'fetid'
+p684
+S'having a bad smell'
+p685
+sS'flag'
+p686
+S'to droop; grow weak'
+p687
+sS'fledgling'
+p688
+S'beginner; novice'
+p689
+sS'fidelity'
+p690
+S'loyalty; exact correspondence'
+p691
+sS'filibuster'
+p692
+S'use of obstructive tactics in a legislature to block passage of a law'
+p693
+ssI34
+(dp694
+S'founder'
+p695
+S'to sink; fail; colapse'
+p696
+sS'forbearance'
+p697
+S'patience'
+p698
+sS'florid'
+p699
+S'ruddy; reddish; flowery'
+p700
+sS'forestall'
+p701
+S'to prevent; delay'
+p702
+sS'flout'
+p703
+S'to treat scornfully'
+p704
+sS'flux'
+p705
+S'flowing; a continuous moving'
+p706
+sS'forswear'
+p707
+S'renounce; repudiate'
+p708
+sS'formidable'
+p709
+S'menacing; threatening'
+p710
+sS'flourish'
+p711
+S'en embellishment or ornamentation'
+p712
+sS'foment'
+p713
+S'to incite; arouse'
+p714
+ssI35
+(dp715
+S'frugality'
+p716
+S'thrift'
+p717
+sS'frieze'
+p718
+S'ornamental band on a wall'
+p719
+sS'fresco'
+p720
+S'a painting done on plaster'
+p721
+sS'fulsome'
+p722
+S'so excessive as to be disgusting'
+p723
+sS'fulminate'
+p724
+S'to attack loudly; denounce'
+p725
+sS'fusion'
+p726
+S'union; synthesis'
+p727
+sS'fractious'
+p728
+S'quarrelsome; unruly; rebellious'
+p729
+sS'fracas'
+p730
+S'a loud quarrel; brawl'
+p731
+sS'froward'
+p732
+S'stubbornly contrary; obstinately disobedient'
+p733
+sS'futile'
+p734
+S'ineffective; useless; fruitless'
+p735
+ssI36
+(dp736
+S'glib'
+p737
+S'fluent in an insincere way; offhand'
+p738
+sS'geniality'
+p739
+S'cheerfulness; kindliness; sociability'
+p740
+sS'gouge'
+p741
+S'to tear out; scoop out; overcharge'
+p742
+sS'gauche'
+p743
+S'coarse and uncouth; clumsy'
+p744
+sS'gossamer'
+p745
+S'sheer; light and delicate; like cobwebs'
+p746
+sS'goad'
+p747
+S'to prod; urge on'
+p748
+sS'garrulous'
+p749
+S'very talkative; wordy'
+p750
+sS'gerrymander'
+p751
+S'to divide an area into voting districts in a way that favors a political party'
+p752
+sS'gainsay'
+p753
+S'to deny; dispute; oppose'
+p754
+sS'gambol'
+p755
+S'to frolic; leap playfully'
+p756
+ssI37
+(dp757
+S'hallowed'
+p758
+S'holy; sacred'
+p759
+sS'grouse'
+p760
+S'to complain'
+p761
+sS'guileless'
+p762
+S'free of cunning or deceit; artless'
+p763
+sS'gullible'
+p764
+S'easily deceived'
+p765
+sS'halcyon'
+p766
+S'calm and peaceful; happy; golden; prosperous'
+p767
+sS'grandiloquent'
+p768
+S'pompous; bombastic'
+p769
+sS'guise'
+p770
+S'outward appearance; false appearance'
+p771
+sS'gregarious'
+p772
+S'outgoing; sociable'
+p773
+sS'harangue'
+p774
+S'long, pompous speech; tirade'
+p775
+sS'gustatory'
+p776
+S'affecting the sense of taste'
+p777
+ssI38
+(dp778
+S'homogeneous'
+p779
+S'composed of identical parts; uniform in composition'
+p780
+sS'homily'
+p781
+S'sermon; tedious moralizing lecture'
+p782
+sS'heterodox'
+p783
+S'not widely accepted'
+p784
+sS'herbivorous'
+p785
+S'an animal that feeds mainly on plants'
+p786
+sS'hieroglyphics'
+p787
+S'a system of writing in which pictorial symbols represent meanings or sounds; wirting or symbols that are difficult to decipher'
+p788
+sS'hermetic'
+p789
+S'tighly sealed; magical'
+p790
+sS'hirsute'
+p791
+S'covered with hair'
+p792
+sS'homeostasis'
+p793
+S'automatic maintenance by an organism in balance with itself'
+p794
+sS'harrowing'
+p795
+S'extremely distressing; terrifying'
+p796
+sS'histrionic'
+p797
+S'relating to exaggerated emotional behavior calculated for effect; theatrical acts or performances'
+p798
+ssI39
+(dp799
+S'impassive'
+p800
+S'showing no emotion'
+p801
+sS'igneous'
+p802
+S'produced by fire; volcanic'
+p803
+sS'impair'
+p804
+S'to damage; injure'
+p805
+sS'impede'
+p806
+S'to hinder; block'
+p807
+sS'imbroglio'
+p808
+S'complicated situation; an entanglement'
+p809
+sS'iconoclastic'
+p810
+S'attacking cherished traditions'
+p811
+sS'idolatry'
+p812
+S'idol worship; blind or excessive devotion'
+p813
+sS'impecunious'
+p814
+S'poor; having no money'
+p815
+sS'immutable'
+p816
+S'inchangeable'
+p817
+sS'hyperbole'
+p818
+S'purposeful exaggeration for effect'
+p819
+ssI40
+(dp820
+S'implacable'
+p821
+S'inflexible; incable of being pleased or calmed down'
+p822
+sS'impervious'
+p823
+S'incapable of being affected; impossible to penetrate'
+p824
+sS'imprecation'
+p825
+S'curse; damnation'
+p826
+sS'impermeable'
+p827
+S'impossible to permeate'
+p828
+sS'implausible'
+p829
+S'unlikely; unbelievable'
+p830
+sS'impute'
+p831
+S'to attribute the fault to; relate to a particular cause or source'
+p832
+sS'implode'
+p833
+S'collapse inward violently'
+p834
+sS'impinge'
+p835
+S'to strike; encroach'
+p836
+sS'implicit'
+p837
+S'implied; understood but not stated'
+p838
+sS'imperturbable'
+p839
+S'not easily disturbed'
+p840
+ssI41
+(dp841
+S'incorporate'
+p842
+S'introduce something into another thing already in existence'
+p843
+sS'incarnate'
+p844
+S'having bodily form'
+p845
+sS'incursion'
+p846
+S'sudden invasion'
+p847
+sS'inadvertently'
+p848
+S'carelessly; unintentionally'
+p849
+sS'inchoate'
+p850
+S'imperfectely formed or formulated'
+p851
+sS'incongruity'
+p852
+S'state of not fitting'
+p853
+sS'indeterminate'
+p854
+S'uncertain; indefinite'
+p855
+sS'indolent'
+p856
+S'habitually lazy; idle'
+p857
+sS'inconsequential'
+p858
+S'insignificant; unimportant'
+p859
+sS'indigence'
+p860
+S'poverty'
+p861
+ssI42
+(dp862
+S'innocuous'
+p863
+S'harmless'
+p864
+sS'inert'
+p865
+S'unable to move; sluggish'
+p866
+sS'insipid'
+p867
+S'lacking in flavor; dull'
+p868
+sS'ineluctable'
+p869
+S'not to be avoided or escaped; inevitable'
+p870
+sS'insinuate'
+p871
+S'to suggest; say indirectly; imply'
+p872
+sS'ingenuous'
+p873
+S'naive and trusting; lacking sophistication'
+p874
+sS'insouciant'
+p875
+S'indifferent; lacking concern or care'
+p876
+sS'inherent'
+p877
+S'firmly established by nature or habit'
+p878
+sS'insularity'
+p879
+S'narrow-mindedness; isolation'
+p880
+sS'insensible'
+p881
+S'unconscious; unresponsive'
+p882
+ssI43
+(dp883
+S'intractable'
+p884
+S'not easily managed'
+p885
+sS'intransigence'
+p886
+S'stubbornness; refusal to compromise'
+p887
+sS'intimate'
+p888
+S'marked by close acquaintance'
+p889
+sS'insuperable'
+p890
+S'insurmountable; unconquerable'
+p891
+sS'interregnum'
+p892
+S'interval between reigns; gap in continuity'
+p893
+sS'interpolate'
+p894
+S'to insert; change by adding new words or material'
+p895
+sS'introspective'
+p896
+S"contemplating one's own thoughts and feelings"
+p897
+sS'interdict'
+p898
+S'to forbid; prohibit'
+p899
+sS'intangible'
+p900
+S'not material'
+p901
+sS'internecine'
+p902
+S'deadly to both sides'
+p903
+ssI44
+(dp904
+S'inured'
+p905
+S'hardened; accustomed; used to'
+p906
+sS'inundate'
+p907
+S'to cover with water, overwhelm'
+p908
+sS'itinerant'
+p909
+S'wandering from place to place; unsettled'
+p910
+sS'inveigle'
+p911
+S'to win over by flattering or coaxing'
+p912
+sS'invective'
+p913
+S'verbal abuse'
+p914
+sS'invidious'
+p915
+S'likely to provoke ill will'
+p916
+sS'inveigh'
+p917
+S'to disapprove; protest vehemently'
+p918
+sS'inveterate'
+p919
+S'confirmed; long standing'
+p920
+sS'irascible'
+p921
+S'easily angered'
+p922
+sS'irresolute'
+p923
+S'unsure of how to act; weak'
+p924
+ssI45
+(dp925
+S'juxtapose'
+p926
+S'place side by side'
+p927
+sS'kudos'
+p928
+S'fame; glory; honor'
+p929
+sS'itinerary'
+p930
+S"route of a traveler's journey"
+p931
+sS'laconic'
+p932
+S'using few words'
+p933
+sS'jocose'
+p934
+S'fond of joking; jocular'
+p935
+sS'junta'
+p936
+S'group of people united in political intrigue'
+p937
+sS'labile'
+p938
+S'likely to change'
+p939
+sS'jaundiced'
+p940
+S'having a yellowish discoloration of the skin; affected by envy'
+p941
+sS'juggernaut'
+p942
+S'huge froce destroying everything in its path'
+p943
+sS'jibe'
+p944
+S'to be in agreement'
+p945
+ssI46
+(dp946
+S'libertine'
+p947
+S'one without moral restraint'
+p948
+sS'latent'
+p949
+S'dormant; potential not apparent'
+p950
+sS'laud'
+p951
+S'praise'
+p952
+sS'levee'
+p953
+S'en embankment that prevents a river from overflowing'
+p954
+sS'lassitude'
+p955
+S'lethargy; sluggishness'
+p956
+sS'lascivious'
+p957
+S'lustful'
+p958
+sS'lambaste'
+p959
+S'to trash verbally or physically'
+p960
+sS'liberal'
+p961
+S'tolerant; broad-minded'
+p962
+sS'levity'
+p963
+S'light manner or attitude'
+p964
+sS'lethargic'
+p965
+S'inactive; sluggish; dull'
+p966
+ssI47
+(dp967
+S'litigation'
+p968
+S'legal proceedings'
+p969
+sS'libido'
+p970
+S'sexual desire'
+p971
+sS'log'
+p972
+S'record of a voyage; record of daily activities'
+p973
+sS'literati'
+p974
+S'scholarly or learned persons'
+p975
+sS'limpid'
+p976
+S'clear; transparent'
+p977
+sS'litany'
+p978
+S'lengthy recitation; repetitive chant'
+p979
+sS'loquacious'
+p980
+S'talkative'
+p981
+sS'limn'
+p982
+S'to draw, describe'
+p983
+sS'linguistic'
+p984
+S'pertaining to language'
+p985
+sS'lilliputian'
+p986
+S'extremely small'
+p987
+ssI48
+(dp988
+S'maelstrom'
+p989
+S'whirlpool; turmoil'
+p990
+sS'magnanimity'
+p991
+S'generosity; nobility'
+p992
+sS'lucre'
+p993
+S'money or profits'
+p994
+sS'lucid'
+p995
+S'bright; clear; intelligible'
+p996
+sS'malign'
+p997
+S'to speak evil of'
+p998
+sS'malinger'
+p999
+S'to feign illness to escape duty'
+p1000
+sS'lustrous'
+p1001
+S'shining'
+p1002
+sS'machiavellian'
+p1003
+S'crafty; double-dealing'
+p1004
+sS'luminous'
+p1005
+S'bright; brilliant; glowing'
+p1006
+sS'machinations'
+p1007
+S'plots or schemes'
+p1008
+ssI49
+(dp1009
+S'menagerie'
+p1010
+S'a variety of animals kept together'
+p1011
+sS'mendicant'
+p1012
+S'beggar'
+p1013
+sS'mesmerize'
+p1014
+S'to hypnotize'
+p1015
+sS'meretricious'
+p1016
+S'gaudy; specious; falsely attractive'
+p1017
+sS'mendacious'
+p1018
+S'dishonest'
+p1019
+sS'metamorphosis'
+p1020
+S'change; transformation'
+p1021
+sS'malleable'
+p1022
+S'able to be hammered or pressed permanently out of shape without breaking or cracking'
+p1023
+sS'megalomania'
+p1024
+S'delusions of power or importance'
+p1025
+sS'maverick'
+p1026
+S'dissenter'
+p1027
+sS'metaphysics'
+p1028
+S'a branch of philosophy tha tinvestigates the ultimate nature of reality'
+p1029
+ssI50
+(dp1030
+S'meteorological'
+p1031
+S'concerned with the weather'
+p1032
+sS'minatory'
+p1033
+S'threatening; menacing'
+p1034
+sS'misanthrope'
+p1035
+S'one who hates humanity; one who dislikes others'
+p1036
+sS'meticulous'
+p1037
+S'very careful; picky; fastidious'
+p1038
+sS'microcosm'
+p1039
+S'a small system having analogies to a larger system'
+p1040
+sS'mettlesome'
+p1041
+S'full of courage and fortitude'
+p1042
+sS'militate'
+p1043
+S'to work against'
+p1044
+sS'minutia'
+p1045
+S'petty details'
+p1046
+sS'minuscule'
+p1047
+S'very small'
+p1048
+sS'mettle'
+p1049
+S'courage; endurance'
+p1050
+ssI51
+(dp1051
+S'mnemonic'
+p1052
+S'realated to memory; assisting memory'
+p1053
+sS'mitigate'
+p1054
+S'alleviate; to become less severe'
+p1055
+sS'morose'
+p1056
+S'ill-humored; sullen'
+p1057
+sS'miscreant'
+p1058
+S'villain; criminal'
+p1059
+sS'motley'
+p1060
+S'many colored; made up of many parts'
+p1061
+sS'monolithic'
+p1062
+S'solid and uniform; constituing a single, unified whole'
+p1063
+sS'modicum'
+p1064
+S'limited quantity'
+p1065
+sS'miscellany'
+p1066
+S'mixture of writtings on various subjects'
+p1067
+sS'misogynist'
+p1068
+S'one who hates women'
+p1069
+sS'mollify'
+p1070
+S'to soothe'
+p1071
+ssI52
+(dp1072
+S'neologism'
+p1073
+S'new word or expression'
+p1074
+sS'mundane'
+p1075
+S'worldy as opposed to spiritual; concerned with the ordinary'
+p1076
+sS'nostrum'
+p1077
+S'medicine or remedy of doubtful effectiveness'
+p1078
+sS'nonplussed'
+p1079
+S'bewildered'
+p1080
+sS'necromancy'
+p1081
+S'black magic'
+p1082
+sS'nexus'
+p1083
+S'a means of connection; a center'
+p1084
+sS'nostalgia'
+p1085
+S'sentimental longing for a past time'
+p1086
+sS'neophyte'
+p1087
+S'novice; beginner'
+p1088
+sS'multifarious'
+p1089
+S'diverse'
+p1090
+sS'negate'
+p1091
+S'to cancel out; nullify'
+p1092
+ssI53
+(dp1093
+S'obdurate'
+p1094
+S'stubborn'
+p1095
+sS'occult'
+p1096
+S'relating to practices connected with supernatural phenomena'
+p1097
+sS'officious'
+p1098
+S'assertive of authority in an annoyingly domineering way, esp. with regard to petty or trivial matters'
+p1099
+sS'nugatory'
+p1100
+S'trifling; invalid'
+p1101
+sS'olfactory'
+p1102
+S'concerning the sense of smell'
+p1103
+sS'obsequy'
+p1104
+S'funeral ceremony'
+p1105
+sS'obviate'
+p1106
+S'to make unnecessary; to anticipate and prevent'
+p1107
+sS'obsequious'
+p1108
+S'overly submissive'
+p1109
+sS'odyssey'
+p1110
+S'a long, adventurous voyage; a quest'
+p1111
+sS'occlude'
+p1112
+S'to shut; block'
+p1113
+ssI54
+(dp1114
+S'ostentatious'
+p1115
+S'showy; pretentious'
+p1116
+sS'opprobrium'
+p1117
+S'public disgrace; contempt'
+p1118
+sS'oligarchy'
+p1119
+S'form of government in which power belongs to only a few leaders'
+p1120
+sS'paleontology'
+p1121
+S'study of past geological eras through fossil remains'
+p1122
+sS'onomatopoeia'
+p1123
+S'formation or use of words that imitate sounds of the actions they refer to'
+p1124
+sS'ornithologist'
+p1125
+S'scientist who studies birds'
+p1126
+sS'paean'
+p1127
+S'song of joy or triumph; a fervent expression of joy'
+p1128
+sS'overweening'
+p1129
+S'presumptuous; arrogant'
+p1130
+sS'oscillate'
+p1131
+S'to move back and forth'
+p1132
+sS'onerous'
+p1133
+S'burdensome'
+p1134
+ssI55
+(dp1135
+S'patois'
+p1136
+S'jargon; a regional dialect'
+p1137
+sS'pedantic'
+p1138
+S'Characterized by a narrow, often ostentatious concern for book learning and formal rules'
+p1139
+sS'penchant'
+p1140
+S'inclination'
+p1141
+sS'partisan'
+p1142
+S'one-sided; committed to a party, group or cause'
+p1143
+sS'pallid'
+p1144
+S'lacking color or liveliness'
+p1145
+sS'panegyric'
+p1146
+S'elaborate praise; formal hymn of praise'
+p1147
+sS'paragon'
+p1148
+S'model of perfection or excellence'
+p1149
+sS'paucity'
+p1150
+S'scarcity'
+p1151
+sS'pellucid'
+p1152
+S'transparent; easily understood'
+p1153
+sS'pathological'
+p1154
+S'departing from normal condition'
+p1155
+ssI56
+(dp1156
+S'pervasive'
+p1157
+S'spread throughout every part'
+p1158
+sS'peregrination'
+p1159
+S'wandering from place to place'
+p1160
+sS'perigee'
+p1161
+S'point in an orbit that is closest to the earth'
+p1162
+sS'perennial'
+p1163
+S'present throughout the years; persistent'
+p1164
+sS'peremptory'
+p1165
+S'imperative; leaving no choice'
+p1166
+sS'perfidious'
+p1167
+S'faithless; disloyal; untrustworthy'
+p1168
+sS'perturb'
+p1169
+S'to disturb greatly; make uneasy or anxious'
+p1170
+sS'permeable'
+p1171
+S'penetrable'
+p1172
+sS'perfunctory'
+p1173
+S'superficial; performed really as a duty'
+p1174
+sS'penury'
+p1175
+S'extreme poverty'
+p1176
+ssI57
+(dp1177
+S'physiognomy'
+p1178
+S'facial features'
+p1179
+sS'piety'
+p1180
+S'devoutness'
+p1181
+sS'phoenix'
+p1182
+S'anything that is restored after suffering great destruction'
+p1183
+sS'piquant'
+p1184
+S'pleasantly pungent; attractive'
+p1185
+sS'petulant'
+p1186
+S'rude; peevish'
+p1187
+sS'phlegmatic'
+p1188
+S'unemotional; calm in temperament'
+p1189
+sS'pique'
+p1190
+S"a feeling of irritation or resentment resulting from a slight, esp. to one's pride"
+p1191
+sS'placate'
+p1192
+S'soothe; pacify'
+p1193
+sS'placid'
+p1194
+S'calm'
+p1195
+sS'plaintive'
+p1196
+S'melancholy; mournful'
+p1197
+ssI58
+(dp1198
+S'plummet'
+p1199
+S'to fall; plunge'
+p1200
+sS'platonic'
+p1201
+S'spiritual; theoretical'
+p1202
+sS'pragmatic'
+p1203
+S'practical'
+p1204
+sS'plasticity'
+p1205
+S'pliability; condition of being able to be shaped or formed'
+p1206
+sS'plethora'
+p1207
+S'excess; overabundance'
+p1208
+sS'plutocracy'
+p1209
+S'society ruled by the wealthy'
+p1210
+sS'platitude'
+p1211
+S'stale; overused expression'
+p1212
+sS'porous'
+p1213
+S'full of holes; permeable to liquids'
+p1214
+sS'plumb'
+p1215
+S'to examine deeply; determine the depth'
+p1216
+sS'poseur'
+p1217
+S'person who affects an attitude to impress others'
+p1218
+ssI59
+(dp1219
+S'prate'
+p1220
+S'to talk idly; chatter'
+p1221
+sS'prehensile'
+p1222
+S'capable of grasping'
+p1223
+sS'precursor'
+p1224
+S'forerunner; predecessor'
+p1225
+sS'precarious'
+p1226
+S'uncertain'
+p1227
+sS'precept'
+p1228
+S'principle; law'
+p1229
+sS'preempt'
+p1230
+S'to supersede; appropiate for oneself'
+p1231
+sS'prattle'
+p1232
+S'meaningless, foolish talk'
+p1233
+sS'precipitate'
+p1234
+S'rash; hasty; sudden; done without deliberation'
+p1235
+sS'preamble'
+p1236
+S'preliminary statement'
+p1237
+ssI60
+(dp1238
+S'probity'
+p1239
+S'honesty; high-mindedness'
+p1240
+sS'problematic'
+p1241
+S'posing a problem; doubtful'
+p1242
+sS'presumptuous'
+p1243
+S'rude; improperly bold'
+p1244
+sS'preternatural'
+p1245
+S'supernatural; beyond the normal use of nature'
+p1246
+sS'primordial'
+p1247
+S'original; existing from the beginning'
+p1248
+sS'prodigal'
+p1249
+S'wasteful; extravagant; lavish'
+p1250
+sS'pristine'
+p1251
+S'untouched; uncorrupted'
+p1252
+sS'premonition'
+p1253
+S'forewarning; presentiment'
+p1254
+sS'presage'
+p1255
+S'to foretell; indicate in advance'
+p1256
+sS'prevaricate'
+p1257
+S'to quibble; evade the truth'
+p1258
+ssI61
+(dp1259
+S'punctilious'
+p1260
+S'careful in observing rules fo behavior'
+p1261
+sS'proliferate'
+p1262
+S'to increase rapidly'
+p1263
+sS'profound'
+p1264
+S'deep, not superficial'
+p1265
+sS'proscribe'
+p1266
+S'to condemn, forbid, outlaw'
+p1267
+sS'puissant'
+p1268
+S'powerful'
+p1269
+sS'prohibitive'
+p1270
+S'so high as to prevent the purchase or use of, forbidding'
+p1271
+sS'propensity'
+p1272
+S'inclination, tendency'
+p1273
+sS'propriety'
+p1274
+S'correct conduct, fitness'
+p1275
+sS'provident'
+p1276
+S'providing for future need, frugal'
+p1277
+sS'propitiate'
+p1278
+S'to win over, appease'
+p1279
+ssI62
+(dp1280
+S'quail'
+p1281
+S'to cower, lose heart'
+p1282
+sS'purport'
+p1283
+S'to profess, suppose, claim'
+p1284
+sS'pungent'
+p1285
+S'penetrating, caustic, to the point'
+p1286
+sS'pusillanimous'
+p1287
+S'cowardly; showing a lack of courage or determination; timid'
+p1288
+sS'quagmire'
+p1289
+S'marsh, difficult situation'
+p1290
+sS'qualified'
+p1291
+S'limited, restricted'
+p1292
+sS'quiescent'
+p1293
+S'inactive, still'
+p1294
+sS'quibble'
+p1295
+S'to argue over insignificant and irrelevant details'
+p1296
+sS'qualm'
+p1297
+S'sudden feeling of faintness or nausea'
+p1298
+sS'query'
+p1299
+S'question'
+p1300
+ssI63
+(dp1301
+S'quorum'
+p1302
+S'number of memeber necessary to conduct a meeting'
+p1303
+sS'raconteur'
+p1304
+S'witty, skillful storyteller'
+p1305
+sS'rail'
+p1306
+S'to scold with bitter or abusive language'
+p1307
+sS'raiment'
+p1308
+S'clothing'
+p1309
+sS'rarefied'
+p1310
+S'belonging to, or appealing to an exclusive group; esoteric'
+p1311
+sS'ramification'
+p1312
+S'implication, consequence'
+p1313
+sS'rationale'
+p1314
+S'fundamental reason'
+p1315
+sS'rebus'
+p1316
+S'puzzle in which pictures or symbols represent words'
+p1317
+sS'recant'
+p1318
+S'retract a statement of opinion'
+p1319
+sS'recalcitrant'
+p1320
+S'resisting authority or control'
+p1321
+ssI64
+(dp1322
+S'recondite'
+p1323
+S'abstruse, profound'
+p1324
+sS'relegate'
+p1325
+S'to consign to an inferior position'
+p1326
+sS'refute'
+p1327
+S'to contradict, disprove'
+p1328
+sS'refulgent'
+p1329
+S'brightly shining, resplendent'
+p1330
+sS'redoubtable'
+p1331
+S'formidable, arousing fear'
+p1332
+sS'refractory'
+p1333
+S'stubborn, resisting ordinary methods of treatment'
+p1334
+sS'regale'
+p1335
+S'to entertain'
+p1336
+sS'renege'
+p1337
+S"to go back on one's word"
+p1338
+sS'remonstrate'
+p1339
+S'to object or protest'
+p1340
+sS'recluse'
+p1341
+S'person who lives in seclusion and often in solitude'
+p1342
+ssI65
+(dp1343
+S'reticent'
+p1344
+S'nor speaking freely, reserved, reluctant'
+p1345
+sS'reparation'
+p1346
+S'amends, compensation'
+p1347
+sS'reprobate'
+p1348
+S'morally unprincipled person'
+p1349
+sS'repudiate'
+p1350
+S'to reject as having no authority'
+p1351
+sS'resolution'
+p1352
+S'determination, resolve'
+p1353
+sS'repine'
+p1354
+S'fret, complain'
+p1355
+sS'reprise'
+p1356
+S'repetition, especially of a piece of music'
+p1357
+sS'resolve'
+p1358
+S'determination, firmness of purpose'
+p1359
+sS'reproach'
+p1360
+S'to find fault with, blame'
+p1361
+sS'rescind'
+p1362
+S'to cancel'
+p1363
+ssI66
+(dp1364
+S'reverent'
+p1365
+S'expressing deep respect, worshipful'
+p1366
+sS'salubrious'
+p1367
+S'healthful'
+p1368
+sS'ruse'
+p1369
+S'trick, crafty stratagem'
+p1370
+sS'salacious'
+p1371
+S'lascivious, lustful'
+p1372
+sS'sage'
+p1373
+S'wise'
+p1374
+sS'rue'
+p1375
+S'regret'
+p1376
+sS'salutary'
+p1377
+S'expecting an improvement, favorable to health'
+p1378
+sS'rubric'
+p1379
+S'protocol, title or heading'
+p1380
+sS'rococo'
+p1381
+S'excessively ornate'
+p1382
+sS'riposte'
+p1383
+S'a quick clever reply to an insult or criticism'
+p1384
+ssI67
+(dp1385
+S'satiate'
+p1386
+S'to satisfy'
+p1387
+sS'saturnine'
+p1388
+S'gloomy'
+p1389
+sS'sardonic'
+p1390
+S'cynical, scornfully mocking'
+p1391
+sS'sartorial'
+p1392
+S'pertaining to tailors'
+p1393
+sS'saturate'
+p1394
+S'imbue througout, soak thoroughly'
+p1395
+sS'satyr'
+p1396
+S'a creature that is half-man, half beast, with the horns and legs of a goat'
+p1397
+sS'savor'
+p1398
+S'to enjoy, have a distinctive flavor or smell'
+p1399
+sS'schematic'
+p1400
+S'relating to or in the form of an outline or diagram'
+p1401
+sS'sanction'
+p1402
+S'to approve, ratify, permit'
+p1403
+sS'secrete'
+p1404
+S'produce and release substance into organism'
+p1405
+ssI68
+(dp1406
+S'sextant'
+p1407
+S'navigation tool that determines latitude and longitude'
+p1408
+sS'sidereal'
+p1409
+S'relating to the stars'
+p1410
+sS'sentient'
+p1411
+S'aware, concious, able to perceive'
+p1412
+sS'servile'
+p1413
+S'submissive, obedient'
+p1414
+sS'shard'
+p1415
+S'a piece of broken glass or pottery'
+p1416
+sS'sedulous'
+p1417
+S'diligent, assiduous'
+p1418
+sS'sensuous'
+p1419
+S'relating to the senses'
+p1420
+sS'seismic'
+p1421
+S'relating to earthquakes'
+p1422
+sS'sensual'
+p1423
+S'relating to the senses, gratifying the physical (sexual) senses'
+p1424
+sS'sedition'
+p1425
+S'behaviour prompting rebellion'
+p1426
+ssI69
+(dp1427
+S'simile'
+p1428
+S'comparison of one thing with another using "like" or "as"'
+p1429
+sS'soliloquy'
+p1430
+S'literary or dramatic speech by one character, not adressed to others'
+p1431
+sS'sobriety'
+p1432
+S'seriousness'
+p1433
+sS'singular'
+p1434
+S'unique, extraordinary, odd'
+p1435
+sS'skeptic'
+p1436
+S'one who doubts'
+p1437
+sS'sinuous'
+p1438
+S'intricate, complex'
+p1439
+sS'sinecure'
+p1440
+S'well-paying job that requieres little or no work'
+p1441
+sS'simian'
+p1442
+S'apelike, relating to apes'
+p1443
+sS'solicitous'
+p1444
+S'concerned, attentive, eager'
+p1445
+sS'sodden'
+p1446
+S'thoroughly soaked, saturated'
+p1447
+ssI70
+(dp1448
+S'solvent'
+p1449
+S'able to meet financial obligations'
+p1450
+sS'specious'
+p1451
+S'seeming to be logical and sound, but not really so'
+p1452
+sS'squalor'
+p1453
+S'filthy, wretched condition'
+p1454
+sS'spectrum'
+p1455
+S'band of color, broad range of related ideas or objects'
+p1456
+sS'somatic'
+p1457
+S'relating to or affecting the body, corporeal'
+p1458
+sS'soporific'
+p1459
+S'sleep producing'
+p1460
+sS'staccato'
+p1461
+S'marked by abrupt, clear-cut sounds'
+p1462
+sS'sporadic'
+p1463
+S'irregular'
+p1464
+sS'spendthrift'
+p1465
+S'person who spends money recklessly'
+p1466
+sS'sordid'
+p1467
+S'filthy, contemptible and corrupt'
+p1468
+ssI71
+(dp1469
+S'stricture'
+p1470
+S'something that restrains, negative criticism'
+p1471
+sS'stanch'
+p1472
+S'to stop or check the flow of'
+p1473
+sS'stipulate'
+p1474
+S'to specify as an essential condition'
+p1475
+sS'stolid'
+p1476
+S'having or showing little emotion'
+p1477
+sS'stratified'
+p1478
+S'arranged in layers'
+p1479
+sS'stentorian'
+p1480
+S'extremely loud'
+p1481
+sS'stint'
+p1482
+S'to be sparing'
+p1483
+sS'stigma'
+p1484
+S'mark of disgrace or inferiority'
+p1485
+sS'striated'
+p1486
+S'marked with thin, narrow grooves or channels'
+p1487
+sS'strident'
+p1488
+S'loud, harsh, unpleasantly noisy'
+p1489
+ssI72
+(dp1490
+S'subversive'
+p1491
+S'intended to undermine or underthrow, especially an established government'
+p1492
+sS'stultify'
+p1493
+S'to impair or reduce to uselessness'
+p1494
+sS'substantiate'
+p1495
+S'to support with proof or evidence'
+p1496
+sS'strut'
+p1497
+S'to swagger, display to impress others'
+p1498
+sS'subside'
+p1499
+S'to settle down, grow quiet'
+p1500
+sS'subsume'
+p1501
+S'to include, incorporate'
+p1502
+sS'subpoena'
+p1503
+S'notice ordering someone to appear in court'
+p1504
+sS'stupefy'
+p1505
+S'to dull the senses of, stun, astonish'
+p1506
+sS'stygian'
+p1507
+S'dark and gloomy, hellish'
+p1508
+sS'substantive'
+p1509
+S'essential'
+p1510
+ssI73
+(dp1511
+S'sundry'
+p1512
+S'various'
+p1513
+sS'supersede'
+p1514
+S'to replace, especially to displace as inferior or antiquated'
+p1515
+sS'supplicant'
+p1516
+S'one who asks humbly and earnestly'
+p1517
+sS'suffrage'
+p1518
+S'the right to vote'
+p1519
+sS'supposition'
+p1520
+S'the act of assuming to be true or real'
+p1521
+sS'supine'
+p1522
+S'lying in the back, marked by lethargy'
+p1523
+sS'succor'
+p1524
+S'relief, help in time of distress or want'
+p1525
+sS'supplant'
+p1526
+S'to replace, substitute'
+p1527
+sS'suppliant'
+p1528
+S'beseeching, a person making a humble plea to someone in power or authority'
+p1529
+sS'syllogism'
+p1530
+S'a form of deductive reasoning with a major premise, a minor premise, and a conclusion'
+p1531
+ssI74
+(dp1532
+S'terrestrial'
+p1533
+S'earthly, commonplace'
+p1534
+sS'taxonomy'
+p1535
+S'science of classification'
+p1536
+sS'tautology'
+p1537
+S'unnecessary repetition'
+p1538
+sS'sylvan'
+p1539
+S'related to the woods or forest'
+p1540
+sS'tacit'
+p1541
+S'silently understood, implied'
+p1542
+sS'tenet'
+p1543
+S'belief, doctrine'
+p1544
+sS'theocracy'
+p1545
+S'government by priests representing a god'
+p1546
+sS'tenuous'
+p1547
+S'weak, insubstantial'
+p1548
+sS'talisman'
+p1549
+S'charm to bring good luck and avert misfortune'
+p1550
+sS'tangential'
+p1551
+S'peripheral, irrelevant, digressing'
+p1552
+ssI75
+(dp1553
+S'thespian'
+p1554
+S'an actor or actress'
+p1555
+sS'torpor'
+p1556
+S'lethargy, dormancy, sluggishness'
+p1557
+sS'tirade'
+p1558
+S'long, violent speech, verbal assault'
+p1559
+sS'tortuous'
+p1560
+S'having many twists and turns, highly complex'
+p1561
+sS'tractable'
+p1562
+S'obedient, yielding'
+p1563
+sS'torque'
+p1564
+S'a turning or twisting force'
+p1565
+sS'tout'
+p1566
+S'to promote or praise energetically'
+p1567
+sS'timbre'
+p1568
+S'voice tone color'
+p1569
+sS'toady'
+p1570
+S'flatterer, yes-man'
+p1571
+sS'tome'
+p1572
+S'book, usually large and academic'
+p1573
+ssI76
+(dp1574
+S'travail'
+p1575
+S'work, especially arduous work'
+p1576
+sS'treatise'
+p1577
+S'article treating a subject systematically and thoroughly'
+p1578
+sS'truculence'
+p1579
+S'aggressiveness, ferocity'
+p1580
+sS'tryst'
+p1581
+S'agreement between lovest to meet, rendez-vous'
+p1582
+sS'trepidation'
+p1583
+S'fear and anxiety'
+p1584
+sS'transient'
+p1585
+S'temporary, fleeting'
+p1586
+sS'travesty'
+p1587
+S'parody, exaggerated imitation, caricature'
+p1588
+sS'transgression'
+p1589
+S'act of trespassing or violating a law or rule'
+p1590
+sS'translucent'
+p1591
+S'partially transparent'
+p1592
+sS'tremulous'
+p1593
+S'trembling, frugal, timid'
+p1594
+ssI77
+(dp1595
+S'tumid'
+p1596
+S'swollen, distended'
+p1597
+sS'turbid'
+p1598
+S'muddy, opaque, in a state of great confusion'
+p1599
+sS'untoward'
+p1600
+S'not favorable, troublesome, unruly'
+p1601
+sS'unfeigned'
+p1602
+S'not false, genuine'
+p1603
+sS'undulating'
+p1604
+S'moving in waves'
+p1605
+sS'untenable'
+p1606
+S'indefensible'
+p1607
+sS'uncanny'
+p1608
+S'myterious, strange'
+p1609
+sS'usury'
+p1610
+S'a practice of lending money at exorbitant rates'
+p1611
+sS'tutelary'
+p1612
+S'serving as a guardian or protector'
+p1613
+sS'turgid'
+p1614
+S'swollen, pompous'
+p1615
+ssI78
+(dp1616
+S'vacillate'
+p1617
+S'to waver, oscillate'
+p1618
+sS'vendetta'
+p1619
+S'prolonged feud marked by bitter hostility'
+p1620
+sS'vacuous'
+p1621
+S'empty, void, lacking intelligence'
+p1622
+sS'vapid'
+p1623
+S'tasteless, dull'
+p1624
+sS'valedictory'
+p1625
+S'pertaining to a farewell'
+p1626
+sS'variegated'
+p1627
+S'varied, marked with different colors'
+p1628
+sS'venerate'
+p1629
+S'to adore, honor, respect'
+p1630
+sS'venal'
+p1631
+S'mercenary, corruptible'
+p1632
+sS'veracious'
+p1633
+S'truthful, accurate'
+p1634
+sS'vaunt'
+p1635
+S'to boast, drag'
+p1636
+ssI79
+(dp1637
+S'vertigo'
+p1638
+S'dizziness'
+p1639
+sS'verbose'
+p1640
+S'wordy'
+p1641
+sS'visage'
+p1642
+S'appearance, aspect'
+p1643
+sS'vituperative'
+p1644
+S'using or containing harsh, abusive censure'
+p1645
+sS'virtuoso'
+p1646
+S'someone with master skills, expert musician'
+p1647
+sS'vitiate'
+p1648
+S'to impair the quality of, corrupt morally'
+p1649
+sS'viscous'
+p1650
+S'thick, syrupy'
+p1651
+sS'vexation'
+p1652
+S'irritation, annoyance'
+p1653
+sS'viable'
+p1654
+S'practicable, capable of developing'
+p1655
+sS'vindictive'
+p1656
+S'vengeful, unforgiving'
+p1657
+ssI80
+(dp1658
+S'whimsical'
+p1659
+S'fanciful, unpredictable'
+p1660
+sS'wary'
+p1661
+S'careful, cautious'
+p1662
+sS'welter'
+p1663
+S'wallow or roll, toss about, be in turmoil'
+p1664
+sS'warranted'
+p1665
+S'justified'
+p1666
+sS'vortex'
+p1667
+S'whirpool, center of turbulence'
+p1668
+sS'zealot'
+p1669
+S'one who is fanatically devoted to a cause'
+p1670
+sS'volatile'
+p1671
+S'tending to vary frequently, fickle'
+p1672
+sS'wistful'
+p1673
+S'vaguely longing, sadly thoughtful'
+p1674
+sS'vivisection'
+p1675
+S'dissection, surgery, or painful experiments performed on a living animal for the purpose of scientific research'
+p1676
+sS'vogue'
+p1677
+S'prevailing fashion or practice'
+p1678
+ss.
