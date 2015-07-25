@@ -12,3 +12,6 @@ test
 
 [0-9]*
 meaning_*
+
+b800nonepassed
+b800passed
