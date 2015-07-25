@@ -51,7 +51,7 @@ if __name__ == "__main__":
     keypool = dicpool.keys()
     random.shuffle(keypool)
     for item in keypool:
-        if item not in passed:
+        if (item not in passed) and (item not in nonepassed):
             questions.append(item)
     if len(questions) > 20:
         questions = questions[1:21]
