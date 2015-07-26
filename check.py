@@ -16,7 +16,7 @@ def checkwords(words):
     # Longman dictionary will return status 200 no matter found or not 
     ying = dic.json()
     if ying['results'] == []:
-        raise TypeError('No Word Found')
+        raise TypeError(words)
         
     ying1 = ying['results']
     ying2 = ying1[0]
