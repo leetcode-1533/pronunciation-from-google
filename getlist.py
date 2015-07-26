@@ -11,6 +11,7 @@ import sys
 import urllib
 from bs4 import BeautifulSoup
 
+
 def returnitem(cala):
     for item in cala:
         subitem = item.find('div',{'class':'text'})
@@ -29,11 +30,6 @@ def getdic(url):
         empdic[item] = meaning
     
     return empdic
-    
-        
-    
-    
-    
 
 
 if __name__ == "__main__":
