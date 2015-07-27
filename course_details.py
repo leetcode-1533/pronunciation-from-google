@@ -58,7 +58,7 @@ if __name__ == "__main__":
             ans2 = 'Lon, ', check.checkwords(query)
         except TypeError:
             pass
-        if ans1 != None and ans2 != None:
+        if ans1 != None or ans2 != None:
             print query
         if ans1 != None:
             print ans1
