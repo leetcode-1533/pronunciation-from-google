@@ -8,7 +8,6 @@ Created on Sat Jul 25 13:36:10 2015
 Get Barron 800's list and meaning
 """
 
-import getlist
 import pickle 
 import random
 import sys
@@ -16,99 +15,95 @@ import os
 import time
 import subprocess
 
-def geterate_pickel():
-    baseurl = 'http://www.memrise.com/course/121215/barrons-800-essential-word-list-gre/'
-    
-    base = {}
-    for i in range(1,81):
-        print i
-        url = baseurl + str(i)
-        dic = getlist.getdic(url)
-        real_dic = {v: k for k, v in dic.items()}
-        base[i] = real_dic
         
-    pickle.dump(base, open('b800.pickle','wb'))
-    return base
+class quer:
+    def __init__(self,num):
+        self.data = pickle.load(open('bigpool.pick','rb'))
+        self.genq(num)
+        print self.qpool,'\n'
+
     
-def dump(passed,nonepassed,spe):
-    pickle.dump(passed,open('b800passed','wb'))
-    pickle.dump(nonepassed,open('b800nonepassed','wb'))
-    pickle.dump(spe,open('b800speed','wb'))
-    
-def readpickle():
-    ped = pickle.load(open('b800passed','rb'))
-    nonepede = pickle.load(open('b800nonepassed','rb'))
-    spe = pickle.load(open('b800speed','rb'))
-    return ped,nonepede,spe
-    
-def genpool(num):
-    dic = pickle.load(open('b800.pickle','rb'))
-    passed,nonepassed,spe = readpickle()
-    print "passed:",len(passed)
-    print "Nonepassed", nonepassed
-    
-    ignorepool = passed + nonepassed
-    
-    dicpool = {}
-    for item in dic:
-        dicpool.update(dic[item])
-    
-    testpool = []
-    for item in dicpool:
-        if item not in ignorepool:
-            testpool.append(item)
-    
-    return list(random.sample(set(testpool),num)),dicpool 
+    def test(self):
+        for qitem in self.qpool:
+            start = time.time()
             
-
-def genchoice(right,pool):
-    choices = [right]
-    while len(choices) != 4:
-        pick = random.choice(pool.values())
-        if pick not in choices:
-            choices.append(pick)
-    random.shuffle(choices)
+            print qitem
+            subprocess.Popen(['afplay','/Users/y1275963/v2a/audio/check_j26_800/'+qitem+'.mp3'])
+            
+            choices = self.genchoice(self.data[qitem]['exp'],self.qpool)
+            raw_input('think first')
+            for index,item in enumerate(choices):
+                print index+1,item
+                
+            sel = raw_input('You choices:\n')
+            end = time.time()
+            timeuse = end - start
+            
+            if str(sel) == 'q':
+                break
+            elif int(sel) == 5:
+                print qitem ,"*****wrong,the right answer is:\n",self.data[qitem]['exp'],'\n'
+                self.data[qitem]['wrong'].append([time.strftime("%d/%m/%Y"),timeuse,'No idea'])
+                raw_input('wait for review')
+            else: 
+                if choices[int(sel)-1] == self.data[qitem]['exp']:
+                    print qitem ,"passed\n"
+                    self.data[qitem]['right'].append([time.strftime("%d/%m/%Y"),timeuse])
+                else:
+                    print qitem ,"*****wrong,the right answer is:\n",self.data[qitem]['exp'],'\n'
+                    self.data[qitem]['wrong'].append([time.strftime("%d/%m/%Y"),timeuse,choices[int(sel)-1]])
+                    raw_input('wait for review')
+            
+            pickle.dump(self.data,open('bigpool.pick','wb'))
+         
+         
+    def genq(self,num):
+        qpool = []
+        for item in self.data :
+            if self.data[item]['class'] =='b800' and len(self.data[item]['wrong']) == 0 and  len(self.data[item]['right']) == 0:
+#            if self.data[item]['class'] == 'b800' and self.data[item]['wrong'] == [] and self.data[item]['right'] == []:
+                qpool.append(item)  
+        
+        self.poll = qpool
+        
+        self.qpool = list(random.sample(set(qpool),num))
+                    
+        
+    def genchoice(self,right,choicepool):
+        choices = [right]
+        while len(choices) != 4:
+            pick = random.choice(choicepool)
+            pick = self.data[pick]['exp']
+            if pick not in choices:
+                choices.append(pick)
+        random.shuffle(choices) 
+        return choices
+        
+            
     
-    return choices
-
-    
-    
+def quifind(data,query):
+    tk = []
+    for item in data:
+        if len(data[item][query])>0 and data[item]['class'] =='b800':
+            tk.append([item,data[item]])
+    return tk
+def quifind2(data,query):
+    tk = []
+    for item in data:
+        if len(data[item]['right'])==0 and len(data[item]['wrong'])==0  and data[item]['class'] =='b800':
+            tk.append([item,data[item]])
+    return tk   
+def getf(listl):
+    tk = []
+    for item in listl:
+        tk.append(item[0])
+    return tk
+        
     
 if __name__ == "__main__":
-    squery = 'afplay /Users/y1275963/Desktop/v2a/audio/check_j26_800/'
- 
-    passed,nonepassed,spe = readpickle()
-    questions, dicpool = genpool(20)
+    tk = quer(20)
+    tk.test()  
     
-    print '\n'
-    for qitem in questions:  
-        
-        print qitem
-        subprocess.Popen(['afplay','/Users/y1275963/v2a/audio/check_j26_800/'+qitem+'.mp3'])
-             
-        # Get the choice:
-        choices = genchoice(dicpool[qitem],dicpool)
-        
-        for index,item in enumerate(choices):
-            print index+1,item
-            
-        # prompt input:
-        start = time.time()
-        
-        sel = raw_input('You choices:\n')
-        if str(sel) == 'q':
-            break
-        elif int(sel) == 5:
-            print qitem ,"*****wrong,the right answer is:\n",dicpool[qitem],'\n'
-            nonepassed.append(qitem)
-        else: 
-            if choices[int(sel)-1] == dicpool[qitem]:
-                print qitem ,"passed\n"
-                passed.append(qitem)
-                end = time.time()
-                spe[qitem] = end - start
-            else:
-                print qitem ,"*****wrong,the right answer is:\n",dicpool[qitem],'\n'
-                nonepassed.append(qitem)
-        
-        dump(passed,nonepassed,spe)
+    right = quifind(tk.data,'right')
+    wrong = quifind(tk.data,'wrong')
+    pool = tk.poll
