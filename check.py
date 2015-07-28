@@ -10,6 +10,7 @@ import requests
 import sys
 
 def checkwords(words):
+
     
     dic = requests.get('https://api.pearson.com:443/v2/dictionaries/laad3/entries?headword='+words)
     #dic.raise_for_status()

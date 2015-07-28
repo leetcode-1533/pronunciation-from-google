@@ -35,82 +35,80 @@ def dump(passed,nonepassed,spe):
     pickle.dump(nonepassed,open('b800nonepassed','wb'))
     pickle.dump(spe,open('b800speed','wb'))
     
-def read():
+def readpickle():
     ped = pickle.load(open('b800passed','rb'))
     nonepede = pickle.load(open('b800nonepassed','rb'))
     spe = pickle.load(open('b800speed','rb'))
     return ped,nonepede,spe
     
-    
-if __name__ == "__main__":
+def genpool(num):
     dic = pickle.load(open('b800.pickle','rb'))
-    passed,nonepassed,spe = read()
+    passed,nonepassed,spe = readpickle()
     print "passed:",len(passed)
     print "Nonepassed", nonepassed
-    # Set the question periphery 
+    
+    ignorepool = passed + nonepassed
+    
     dicpool = {}
-    for i in range(int(sys.argv[1]),int(sys.argv[2])):
-        dicpool.update(dic[i])
-    # Random generate 20 items from the lists
-    questions = []
-    keypool = dicpool.keys()
-    random.shuffle(keypool)
-    for item in keypool:
-        if (item not in passed) and (item not in nonepassed):
-            questions.append(item)
-    if len(questions) > 50:
-        questions = questions[1:51]
-    print questions
-    print '\n'
+    for item in dic:
+        dicpool.update(dic[item])
+    
+    testpool = []
+    for item in dicpool:
+        if item not in ignorepool:
+            testpool.append(item)
+    
+    return list(random.sample(set(testpool),num)),dicpool 
+            
+
+def genchoice(right,pool):
+    choices = [right]
+    while len(choices) != 4:
+        pick = random.choice(pool.values())
+        if pick not in choices:
+            choices.append(pick)
+    random.shuffle(choices)
+    
+    return choices
+
     
     
+    
+if __name__ == "__main__":
     squery = 'afplay /Users/y1275963/Desktop/v2a/audio/check_j26_800/'
+ 
+    passed,nonepassed,spe = readpickle()
+    questions, dicpool = genpool(20)
     
-    for qitem in questions:
+    print '\n'
+    for qitem in questions:  
         
-        if qitem in passed:
-            pass
-        else:       
-            print qitem
-            subprocess.Popen(['afplay','/Users/y1275963/Desktop/v2a/audio/check_j26_800/'+qitem+'.mp3'])
+        print qitem
+        subprocess.Popen(['afplay','/Users/y1275963/v2a/audio/check_j26_800/'+qitem+'.mp3'])
+             
+        # Get the choice:
+        choices = genchoice(dicpool[qitem],dicpool)
+        
+        for index,item in enumerate(choices):
+            print index+1,item
             
-            
-            # Get the choice:
-            choices = [dicpool[qitem]]
-            
-            while len(choices) != 4:
-                pick = random.choice(dicpool.values())
-                if pick not in choices:
-                    choices.append(pick)
-            random.shuffle(choices)
-            for index,item in enumerate(choices):
-                print index+1,item
-                
-            # prompt input:
-            start = time.time()
-            
-            sel = raw_input('You choices:\n')
-            if str(sel) == 'q':
-                break
-            elif int(sel) == 5:
+        # prompt input:
+        start = time.time()
+        
+        sel = raw_input('You choices:\n')
+        if str(sel) == 'q':
+            break
+        elif int(sel) == 5:
+            print qitem ,"*****wrong,the right answer is:\n",dicpool[qitem],'\n'
+            nonepassed.append(qitem)
+        else: 
+            if choices[int(sel)-1] == dicpool[qitem]:
+                print qitem ,"passed\n"
+                passed.append(qitem)
+                end = time.time()
+                spe[qitem] = end - start
+            else:
                 print qitem ,"*****wrong,the right answer is:\n",dicpool[qitem],'\n'
                 nonepassed.append(qitem)
-            else: 
-                if choices[int(sel)-1] == dicpool[qitem]:
-                    print qitem ,"passed\n"
-                    passed.append(qitem)
-                    end = time.time()
-                    spe[qitem] = end - start
-                else:
-                    print qitem ,"*****wrong,the right answer is:\n",dicpool[qitem],'\n'
-                    nonepassed.append(qitem)
-            
-            dump(passed,nonepassed,spe)
-            
         
-
-        
-    
-    
-        
-     
+        dump(passed,nonepassed,spe)

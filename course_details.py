@@ -12,6 +12,7 @@ import sys
 import check
 
 def crawl():
+
     
     spider = {}
     
@@ -32,14 +33,22 @@ def crawl():
     pickle.dump(spider,open('course_details.pickle','wb'))
 
 def to_lower(d):
+
+
     return dict((k.lower(), v) for k, v in d.iteritems())
 
 
 if __name__ == "__main__":
+
+
     spi = pickle.load(open('course_details.pickle','rb'))
     dic = {}
     for item in spi:
         dic.update(spi[item])
+
+    b800 = pickle.load(open('b800.pickle','rb'))
+    for item in b800:
+        dic.update(b800[item])
     
     dic = to_lower(dic)
     

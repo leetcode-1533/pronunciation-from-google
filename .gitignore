@@ -16,3 +16,5 @@ meaning_*
 b800nonepassed
 b800passed
 *.pickle
+
+.idea/*
