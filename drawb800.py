@@ -60,9 +60,8 @@ class quer:
             elif str(sel) == 'd':
                 print qitem ,"*****wrong,the right answer is:\n",self.data[qitem]['exp'],'\n'
                 self.data[qitem]['wrong'].append([datetime.datetime.today(),timeuse,'No idea'])
-                self.qpool.insert(random.randint(0,len(self.qpool)),qitem)
-                self.qpool.insert(random.randint(0,len(self.qpool)),qitem)
-                self.qpool.insert(random.randint(0,len(self.qpool)),qitem)
+                for i in range(random.randint(0,5)):
+                    self.qpool.insert(random.randint(0,len(self.qpool)),qitem)
                 re = raw_input('wait for review: ')
             else:
                 if choices[int(sel)-1] == self.data[qitem]['exp']:
@@ -72,9 +71,8 @@ class quer:
                 else:
                     print qitem ,"*****wrong,the right answer is:\n",self.data[qitem]['exp'],'\n'
                     self.data[qitem]['wrong'].append([datetime.datetime.today(),timeuse,choices[int(sel)-1]])
-                    self.qpool.insert(random.randint(0,len(self.qpool)),qitem)
-                    self.qpool.insert(random.randint(0,len(self.qpool)),qitem)
-                    self.qpool.insert(random.randint(0,len(self.qpool)),qitem)
+                    for i in range(random.randint(0,5)):
+                        self.qpool.insert(random.randint(0,len(self.qpool)),qitem)
                     re = raw_input('wait for review: ')
             while str(re).strip() != qitem:
                 re = raw_input('wait for review: ')
