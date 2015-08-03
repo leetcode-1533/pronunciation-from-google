@@ -17,7 +17,8 @@ import subprocess
 from datetime import date, timedelta
 import datetime
 import time
-from collections import deque
+import numpy as np
+
         
 class quer:
     def __init__(self,num):
@@ -60,7 +61,7 @@ class quer:
             elif str(sel) == 'd':
                 print qitem ,"*****wrong,the right answer is:\n",self.data[qitem]['exp'],'\n'
                 self.data[qitem]['wrong'].append([datetime.datetime.today(),timeuse,'No idea'])
-                for i in range(random.randint(0,5)):
+                for i in range(random.randint(2,4)):
                     self.qpool.insert(random.randint(0,len(self.qpool)),qitem)
                 re = raw_input('wait for review: ')
             else:
@@ -71,7 +72,7 @@ class quer:
                 else:
                     print qitem ,"*****wrong,the right answer is:\n",self.data[qitem]['exp'],'\n'
                     self.data[qitem]['wrong'].append([datetime.datetime.today(),timeuse,choices[int(sel)-1]])
-                    for i in range(random.randint(0,5)):
+                    for i in range(random.randint(2,4)):
                         self.qpool.insert(random.randint(0,len(self.qpool)),qitem)
                     re = raw_input('wait for review: ')
             while str(re).strip() != qitem:
@@ -89,14 +90,26 @@ class quer:
         
         yesterday = datetime.datetime.today() - timedelta(days = 1)
         today = datetime.datetime.today() -  timedelta(days = 0)
-        wrong = [x for x in self.data if len(self.data[x]['wrong']) >0 ]
+        
+        right = [x for x in self.data if len(self.data[x]['right']) >0 ]
+        wrong = [x for x in self.data if len(self.data[x]['wrong']) >0 ] # with wrong records
+        
+        notright = [x for x in b800 if len(self.data[x]['right'])==0]# Without right records
         # Yesterday wrong and today_wrong check the last recordes
         # [-1] : Check the last the recoddes, 0 : only concern the date wrong the time etc.
         yest_wrong = [x for x in wrong if sameday(self.data[x]['wrong'][-1][0],yesterday)]
         today_wrong = [x for x in wrong if sameday(self.data[x]['wrong'][-1][0],today)]
         
+#        f_slow = lambda x: np.mean([x[-1] for x in tk.data[x]['right']])
+#        # If the average response time is larger than %
+#        av_slow = [x for x in right if f_slow(x) > self.getdraw(90) ]   
         
-        qpool = ut
+        last_slow = [x for x in right if tk.data[x]['right'][-1][-1] > self.getdraw(70)]
+        
+        qpool = notright
+        
+        
+        
   #      for item in self.data :
 #          if self.data[item]['class'] == 'p3000' and len(self.data[item]['wrong']) == 0 and len(self.data[item]['right']) == 0 and item in [x for x in self.p3000[34]]:
 #          if self.data[item]['class'] =='b800' and len(self.data[item]['wrong']) == 0 and  len(self.data[item]['right']) == 0:
@@ -110,7 +123,11 @@ class quer:
         else:
             self.qpool = qpool
             
-        print self.data[self.qpool[0]]
+        # To avoid len(qpool) == 0:
+        try:
+            print "sample data: ",self.data[self.qpool[0]]
+        except:
+            pass
 
                     
         
@@ -123,6 +140,24 @@ class quer:
                 choices.append(pick)
         random.shuffle(choices) 
         return choices
+    
+    def getdraw(self,perc):
+        tk = self.data
+        
+        right_p = [tk[x]['right'] for x in tk if tk[x]['class']=='b800']
+        wrong_p = [tk[x]['wrong'] for x in tk if tk[x]['class']=='b800']
+        
+    
+        right = reduce(lambda x,y: x+y, right_p)
+        wrong = reduce(lambda x,y:x+y, wrong_p)
+    
+        from matplotlib import pyplot
+        #pyplot.scatter(range(len(right)),[x[-1] for x in right])
+       # pyplot.scatter(range(len(wrong)),[x[1] for x in wrong])
+        
+        right_res = np.array([x[-1] for x in right])
+        wrong_res = np.array([x[1] for x in wrong])
+        return np.percentile(right_res, perc)
         
             
     
@@ -164,6 +199,12 @@ def sameday(d1,d2):
     else:
         return False
         
+
+    
+    
+    
+    
+    
 if __name__ == "__main__":
     tk = quer(25)
     print "a: abandon,q: quit, d:don't know"
