@@ -41,41 +41,44 @@ def to_lower(d):
 if __name__ == "__main__":
 
 
-    spi = pickle.load(open('course_details.pickle','rb'))
-    dic = {}
-    for item in spi:
-        dic.update(spi[item])
+    # spi = pickle.load(open('course_details.pickle','rb'))
+    # dic = {}
+    # for item in spi:
+    #     dic.update(spi[item])
 
-    b800 = pickle.load(open('b800.pickle','rb'))
-    for item in b800:
-        dic.update(b800[item])
-    
-    dic = to_lower(dic)
-    
+    # b800 = pickle.load(open('b800.pickle','rb'))
+    # for item in b800:
+    #     dic.update(b800[item])
+
+    dic = pickle.load(open('data8003000.pick','rb'))
+
     for line in open(sys.argv[1]):
-        ans1 = None
-        ans2 = None
-        
-        query = line.encode('utf-8').strip()
+        query = line.encode('utf-8').strip().lower()
 
-        try:
-            ans1 = 'Dic, ',dic[query]
-        except KeyError:
-            pass
-        
-        try: 
-            ans2 = 'Lon, ', check.checkwords(query)
-        except TypeError:
-            pass
-        if ans1 != None or ans2 != None:
-            print query
-        if ans1 != None:
-            print ans1
-        if ans2 != None:
-            print ans2
-        if ans1 == None and ans2 == None:
-            print "###None found", query
-        print '\n'
+        if not query.startswith('#'):
+
+            ans1 = None
+            ans2 = None
+            
+            try:
+                ans1 = 'Dic, ',dic[query]
+            except KeyError:
+                pass
+            
+            try: 
+                ans2 = 'Lon, ', check.checkwords(query)
+            except TypeError:
+                pass
+                
+            if ans1 != None or ans2 != None:
+                print query
+            if ans1 != None:
+                print ans1
+            if ans2 != None:
+                print ans2
+            if ans1 == None and ans2 == None:
+                print "###None found", query
+            print '\n'
         
          
          
