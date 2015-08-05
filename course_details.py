@@ -37,6 +37,25 @@ def to_lower(d):
 
     return dict((k.lower(), v) for k, v in d.iteritems())
 
+def returndic(listname,dicname):
+
+    dic = pickle.load(open('data8003000.pick','rb'))
+    new_dic = {}
+
+    for line in open(listname):
+        query = line.encode('utf-8').strip().lower()
+
+        if not query.startswith('#'):
+            
+            if not dic.has_key(query):
+                try: 
+                    ans2 = check.checkwords(query)
+                    new_dic[query] = {'class':dicname,'exp':ans2,'right':[],'wrong':[]}
+                    print query
+                except TypeError:
+                    pass
+    return new_dic
+
 
 if __name__ == "__main__":
 
@@ -55,8 +74,10 @@ if __name__ == "__main__":
     for line in open(sys.argv[1]):
         query = line.encode('utf-8').strip().lower()
 
-        if not query.startswith('#'):
-
+        if query.startswith('#'):
+            # Denote the comments
+            print query
+        else:
             ans1 = None
             ans2 = None
             

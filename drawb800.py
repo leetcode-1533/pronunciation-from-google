@@ -18,6 +18,8 @@ from datetime import date, timedelta
 import datetime
 import time
 import numpy as np
+import course_details
+
 
         
 class quer:
@@ -27,16 +29,21 @@ class quer:
         self.data = pickle.load(open('bigpool.pick','rb'))
         self.genq(num)
         print self.qpool,'\n'
+        
+#        self.joindata =  self.join()        
 
     
     def test(self):
         
         while len(self.qpool) !=0 :
             start = time.time()
+            
             qitem = self.qpool.pop()
+            while self.data[qitem]['class'] == 'abandon':
+                qitem = self.qpool.pop()
             
             print qitem
-            subprocess.Popen(['afplay','/Users/y1275963/v2a/audio/check_j26_800/'+qitem+'.mp3'])
+            subprocess.Popen(['afplay','/Users/y1275963/v2a/audio/'+qitem+'.mp3'])
             
             choices = self.genchoice(self.data[qitem]['exp'],[li for li in self.data],4)
             raw_input('think first')
@@ -82,6 +89,14 @@ class quer:
             pickle.dump(self.data,open(os.path.join('rec',time.strftime("%Y%m%d-%H%M%S")),'wb'))
          
 
+
+        
+    def join(self):
+        #a4:
+#    test = course_details.returndic('/Users/y1275963/v2a/check_a4','check_a4')
+    
+    #    return test
+        pass
         
     def genq(self,num):
         b800 = [x for x in self.data if self.data[x]['class'] =='b800' ]
@@ -104,10 +119,25 @@ class quer:
 #        # If the average response time is larger than %
 #        av_slow = [x for x in right if f_slow(x) > self.getdraw(90) ]   
         
-        last_slow = [x for x in right if tk.data[x]['right'][-1][-1] > self.getdraw(70)]
+        last_slow = [x for x in right if self.data[x]['right'][-1][-1] > self.getdraw(70)]
         
-        qpool = notright
+        list_a4 = [x for x in self.data if self.data[x]['class'] == 'check_a4']
         
+        #from list:
+        if False:
+            def fromlist(filename):
+                with open(filename) as f:
+                    lines = f.read().splitlines()
+                return lines
+                
+            li = fromlist('/Users/y1275963/v2a/check_a2')
+            poollist = [x for x in self.data]
+            
+            filelist = list(set(li) & set(poollist))
+        
+        qpool = [x for x in self.data if self.data[x]['class'] =='p3000' ]      
+
+            
         
         
   #      for item in self.data :
@@ -201,9 +231,8 @@ def sameday(d1,d2):
         
 
     
-    
-    
-    
+
+
     
 if __name__ == "__main__":
     tk = quer(25)
