@@ -20,6 +20,12 @@ import time
 import numpy as np
 import course_details
 
+from matplotlib.pyplot import imshow
+import numpy as np
+from PIL import Image
+import matplotlib.pyplot as plt
+import check
+import time
 
         
 class quer:
@@ -32,16 +38,45 @@ class quer:
         
 #        self.joindata =  self.join()        
 
-    
-    def test(self):
+    def showimg(self,query):
+        plt.ion()
+        plt.show()
+        dirimage = [re for re in os.listdir('/Users/y1275963/Pictures/dicima') if re.startswith(query)]
+        f1 = plt.figure()
+
+        for index,item in enumerate(dirimage):
+            try:
+                f1.add_subplot(2,2,index)
+                pil_im = Image.open('/Users/y1275963/Pictures/dicima/%s'%item, 'r')
+                imshow(np.asarray(pil_im))
+                time.sleep(0.05)
+            except IOError,e:
+                pass
+    def study(self):
+        self.spool = []
+        for item in self.filelist:
+            self.spool.append(item)
+            self.showimg(item)
+            raw_input()
+            print item
+            subprocess.Popen(['afplay','/Users/y1275963/v2a/audio/'+item+'.mp3'])
+            print item,' Dic, ', self.data[item]['exp']
+            print item,' lon, ', check.checkwords(item)
+            if len(self.spool)>=5:
+                self.spool.reverse()
+                self.test(self.spool)
+    def test(self,qpool):
         
-        while len(self.qpool) !=0 :
+        while len(qpool) !=0 :
             start = time.time()
             
-            qitem = self.qpool.pop()
+            qitem = qpool.pop()
             while self.data[qitem]['class'] == 'abandon':
-                qitem = self.qpool.pop()
+                qitem = qpool.pop()
             
+            self.showimg(qitem)
+
+
             print qitem
             subprocess.Popen(['afplay','/Users/y1275963/v2a/audio/'+qitem+'.mp3'])
             
@@ -69,7 +104,7 @@ class quer:
                 print qitem ,"*****wrong,the right answer is:\n",self.data[qitem]['exp'],'\n'
                 self.data[qitem]['wrong'].append([datetime.datetime.today(),timeuse,'No idea'])
                 for i in range(random.randint(2,4)):
-                    self.qpool.insert(random.randint(0,len(self.qpool)),qitem)
+                    qpool.insert(random.randint(0,len(qpool)),qitem)
                 re = raw_input('wait for review: ')
             else:
                 if choices[int(sel)-1] == self.data[qitem]['exp']:
@@ -80,7 +115,7 @@ class quer:
                     print qitem ,"*****wrong,the right answer is:\n",self.data[qitem]['exp'],'\n'
                     self.data[qitem]['wrong'].append([datetime.datetime.today(),timeuse,choices[int(sel)-1]])
                     for i in range(random.randint(2,4)):
-                        self.qpool.insert(random.randint(0,len(self.qpool)),qitem)
+                        qpool.insert(random.randint(0,len(qpool)),qitem)
                     re = raw_input('wait for review: ')
             while str(re).strip() != qitem:
                 re = raw_input('wait for review: ')
@@ -124,20 +159,31 @@ class quer:
         list_a4 = [x for x in self.data if self.data[x]['class'] == 'check_a4']
         
         #from list:
-        if False:
+        if True:
             def fromlist(filename):
                 with open(filename) as f:
                     lines = f.read().splitlines()
+                    lines = [item.lower() for item in lines]
+                    lines = [item for item in lines if not item.startswith('#')]
                 return lines
                 
-            li = fromlist('/Users/y1275963/v2a/check_a2')
+            li = fromlist('/Users/y1275963/v2a/check_a5_2')
             poollist = [x for x in self.data]
             
             filelist = list(set(li) & set(poollist))
-        
-        qpool = [x for x in self.data if self.data[x]['class'] =='p3000' ]      
+            notinlist = list(set(li) - set(filelist))
+            for item in notinlist:
+                try:               
+                    self.data[item] = {'class':'added','exp':check.checkwords(item),'right' : [],'wrong':[]}
+                    print item
+                except TypeError:
+                    pass
+                
+        p3000 = [x for x in self.data if self.data[x]['class'] =='p3000' ]  
+        qpool = filelist
+        self.filelist = filelist
 
-            
+        random.shuffle(qpool)
         
         
   #      for item in self.data :
@@ -239,9 +285,8 @@ if __name__ == "__main__":
     print "a: abandon,q: quit, d:don't know"
 #    tk.test()  
 #    
-    right = quifind(tk.data,'right')
-    wrong = quifind(tk.data,'wrong')
+
     pool = tk.poll
     print len(pool)
+    #tk.test(tk.qpool)
         
-    tk.test()  

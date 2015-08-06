@@ -10,6 +10,7 @@ import getlist
 import pickle
 import sys
 import check
+import base64
 
 def crawl():
 
@@ -56,6 +57,45 @@ def returndic(listname,dicname):
                     pass
     return new_dic
 
+def import_main(query):
+    dic = pickle.load(open('data8003000.pick','rb'))
+    rec =[]
+    if query.startswith('#'):
+        # Denote the comments
+        print query
+    else:
+        ans1 = None
+        ans2 = None
+        
+        try:
+            ans1 = 'Dic, ',dic[query]
+        except KeyError:
+            pass
+        
+        try: 
+            tk= check.checkwords(query)
+            ans2 = 'Lon, ', tk
+        except TypeError:
+            pass
+            
+        if ans1 != None or ans2 != None:
+            print query
+        if ans1 != None:
+            print ans1
+            rec.append(r'Dic, '+dic[query].encode('utf8')+'\n')
+        if ans2 != None:
+            print ans2
+            rec.append(r'Lon, '+tk.encode('utf8')+'\n')
+        if ans1 == None and ans2 == None:
+            print "###None found", query
+            rec.append('"###None found", query')
+        print '\n'
+        filename = query+'.txt'
+         
+        with open(filename, "w") as text_file:
+            text_file.write('***'.join(rec))
+        return rec
+            
 
 if __name__ == "__main__":
 
