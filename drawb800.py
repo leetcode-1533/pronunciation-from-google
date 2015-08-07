@@ -42,8 +42,10 @@ class quer:
         plt.ion()
         plt.show()
         dirimage = [re for re in os.listdir('/Users/y1275963/Pictures/dicima') if re.startswith(query)]
+        dirimage = dirimage[0:4]
         f1 = plt.figure()
-
+        
+        index = 0
         for index,item in enumerate(dirimage):
             try:
                 f1.add_subplot(2,2,index)
@@ -52,9 +54,11 @@ class quer:
                 time.sleep(0.05)
             except IOError,e:
                 pass
+                
     def study(self):
         self.spool = []
         for item in self.filelist:
+            print self.spool
             self.spool.append(item)
             self.showimg(item)
             raw_input()
@@ -62,7 +66,7 @@ class quer:
             subprocess.Popen(['afplay','/Users/y1275963/v2a/audio/'+item+'.mp3'])
             print item,' Dic, ', self.data[item]['exp']
             print item,' lon, ', check.checkwords(item)
-            if len(self.spool)>=5:
+            if len(self.spool)>=10:
                 self.spool.reverse()
                 self.test(self.spool)
     def test(self,qpool):
@@ -167,7 +171,7 @@ class quer:
                     lines = [item for item in lines if not item.startswith('#')]
                 return lines
                 
-            li = fromlist('/Users/y1275963/v2a/check_a5_2')
+            li = fromlist('/Users/y1275963/v2a/check_a6_2')
             poollist = [x for x in self.data]
             
             filelist = list(set(li) & set(poollist))
@@ -181,7 +185,7 @@ class quer:
                 
         p3000 = [x for x in self.data if self.data[x]['class'] =='p3000' ]  
         qpool = filelist
-        self.filelist = filelist
+        self.filelist = li
 
         random.shuffle(qpool)
         

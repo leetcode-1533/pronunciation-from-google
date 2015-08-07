@@ -97,5 +97,5 @@ if __name__ == '__main__':
   
     with open(sys.argv[1]) as temp_file:
         imagelist = [line.strip() for line in temp_file]
-    pool = Pool(processes=4)              # process per core
+    pool = Pool(processes=14)              # process per core
     pool.map(down, imagelist)  

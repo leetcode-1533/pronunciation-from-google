@@ -75,7 +75,7 @@ def import_main(query):
         try: 
             tk= check.checkwords(query)
             ans2 = 'Lon, ', tk
-        except TypeError:
+        except :
             pass
             
         if ans1 != None or ans2 != None:
