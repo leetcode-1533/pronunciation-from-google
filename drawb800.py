@@ -26,7 +26,8 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import check
 import time
-
+import testfor
+import v2a
         
 class quer:
     def __init__(self,num):
@@ -41,7 +42,9 @@ class quer:
     def showimg(self,query):
         plt.ion()
         plt.show()
+                    
         dirimage = [re for re in os.listdir('/Users/y1275963/Pictures/dicima') if re.startswith(query)]
+        
         dirimage = dirimage[0:4]
         f1 = plt.figure()
         
@@ -171,7 +174,7 @@ class quer:
                     lines = [item for item in lines if not item.startswith('#')]
                 return lines
                 
-            li = fromlist('/Users/y1275963/v2a/check_a6_2')
+            li = fromlist('/Users/y1275963/v2a/rev3_4')
             poollist = [x for x in self.data]
             
             filelist = list(set(li) & set(poollist))
@@ -181,7 +184,9 @@ class quer:
                     self.data[item] = {'class':'added','exp':check.checkwords(item),'right' : [],'wrong':[]}
                     print item
                 except TypeError:
-                    pass
+                    pass   
+            pickle.dump(self.data,open('bigpool.pick','wb'))
+            pickle.dump(self.data,open(os.path.join('rec',time.strftime("%Y%m%d-%H%M%S")),'wb'))                         
                 
         p3000 = [x for x in self.data if self.data[x]['class'] =='p3000' ]  
         qpool = filelist
