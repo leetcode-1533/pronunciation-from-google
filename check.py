@@ -67,7 +67,8 @@ def treasures(words):
 def treasurelist(words):
     try:
         li = findkeys(treasures(words),'syn')
-        return [item for item in li]
+        return li.next()
+        #return [item for item in li]    
     except:
         return None
     

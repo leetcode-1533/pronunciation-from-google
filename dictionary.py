@@ -36,7 +36,23 @@ def define(filename):
                     print '\n'
                     csvdata.append([li,None])
     return csvdata
-    
+
+def define(filename):
+    csvdata = []
+    with open(filename,'r') as f:
+        for line in f:
+            li = line.strip()
+            if not li.startswith('#'):
+                try:
+                    print li
+                    print data[li]['exp'],'\n'
+                    csvdata.append([li,data[li]['exp']])
+                except:
+                    print li
+                    print '\n'
+                    csvdata.append([li,None])
+    return csvdata   
+
 def tolower(d):
     for k in d.keys():
         v = d.pop(k)
@@ -51,7 +67,7 @@ def tolower(d):
 if __name__ == "__main__":
     csvdata = define(sys.argv[1])
 
-    with open('/tmp/rev3000_1.csv','wb') as f:
+    with open('/tmp/'+sys.argv[1]+'.csv','wb') as f:
         wr = csv.writer(f,delimiter=',',quoting=csv.QUOTE_ALL)
         wr.writerow(['Words','Explanation'])
         wr.writerows(csvdata)
