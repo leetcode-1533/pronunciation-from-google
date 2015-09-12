@@ -40,8 +40,7 @@ if __name__ == "__main__":
 #    sys.setdefaultencoding('utf8')
     dic = getdic(url)
     
-    for item in dic.values():
-        print item.lower()
+    print '\n'.join(dic.keys())
 
     
 

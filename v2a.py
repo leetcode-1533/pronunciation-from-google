@@ -24,7 +24,8 @@ class audio:
         
         self.g_path = "https://ssl.gstatic.com/dictionary/static/sounds/de/0/"
         self.mp3_path = self.g_path + word + ".mp3"
-        self.loc = os.path.join(exerpath,"audio")#now all goes to audio,foldername)
+        #self.loc = os.path.join(exerpath,"audio")#now all goes to audio,foldername)
+        self.loc = os.path.join(exerpath,"audio",foldername)
         
         if not os.path.exists(self.loc):
             os.makedirs(self.loc)  
